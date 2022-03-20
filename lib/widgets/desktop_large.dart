@@ -27,6 +27,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
               ],
             ),
           ),
+          Container()
         ],
       ),
     );

@@ -15,7 +15,9 @@ class _HomeState extends State<Home> {
         centerTitle: true,
         title: const Text('Memory Diary'),
       ),
-      body: LayoutBuilder(),
+      body: LayoutBuilder(
+        builder: (context, constraints) {},
+      ),
     );
   }
 }

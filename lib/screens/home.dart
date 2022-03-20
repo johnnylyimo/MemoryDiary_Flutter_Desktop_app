@@ -16,7 +16,11 @@ class _HomeState extends State<Home> {
         title: const Text('Memory Diary'),
       ),
       body: LayoutBuilder(
-        builder: (context, constraints) {},
+        builder: (context, constraints) {
+          if (constraints.maxWidth > 900) {
+            return const DesktopLargeView();
+          }
+        },
       ),
     );
   }

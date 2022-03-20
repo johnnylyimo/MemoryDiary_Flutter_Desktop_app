@@ -10,6 +10,6 @@ class DesktopLargeView extends StatefulWidget {
 class _DesktopLargeViewState extends State<DesktopLargeView> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold();
   }
 }

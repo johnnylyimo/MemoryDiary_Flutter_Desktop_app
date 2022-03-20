@@ -20,6 +20,8 @@ class _HomeState extends State<Home> {
         builder: (context, constraints) {
           if (constraints.maxWidth > 900) {
             return const DesktopLargeView();
+          } else {
+            return const DesktopSmallView();
           }
         },
       ),

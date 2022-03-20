@@ -13,6 +13,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
     return Scaffold(
       body: Container(
         margin: const EdgeInsets.all(20),
+        padding: const EdgeInsets.all(10),
       ),
     );
   }

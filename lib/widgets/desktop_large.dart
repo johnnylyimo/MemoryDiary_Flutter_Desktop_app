@@ -17,6 +17,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
         decoration: BoxDecoration(
           color: Colors.purple.shade200,
         ),
+        child: Column(),
       ),
     );
   }

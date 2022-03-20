@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class DesktopSmallView extends StatefulWidget {
   const DesktopSmallView({Key? key}) : super(key: key);
 

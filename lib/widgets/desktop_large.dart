@@ -11,7 +11,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(),
+      body: Container(
+        margin: const EdgeInsets.all(20),
+      ),
     );
   }
 }

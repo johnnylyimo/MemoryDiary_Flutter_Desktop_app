@@ -11,7 +11,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
   @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
-    final screenHeight = MediaQuery.of(context).size.height;
+    // final screenHeight = MediaQuery.of(context).size.height;
     return Scaffold(
       body: Row(
         children: [
@@ -34,15 +34,17 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
               ],
             ),
           ),
-          Container(
-            width: screenWidth * 0.6,
-            margin: const EdgeInsets.all(20),
-            padding: const EdgeInsets.all(10),
-            color: Colors.purple.shade200,
-            child: Column(
-              children: const [
-                Text('Highlights'),
-              ],
+          Flexible(
+            child: Container(
+              width: screenWidth * 0.6,
+              margin: const EdgeInsets.all(20),
+              padding: const EdgeInsets.all(10),
+              color: Colors.purple.shade200,
+              child: Column(
+                children: const [
+                  Text('Highlights'),
+                ],
+              ),
             ),
           )
         ],

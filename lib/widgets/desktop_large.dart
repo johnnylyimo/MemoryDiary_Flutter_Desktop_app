@@ -28,8 +28,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                   text: const TextSpan(
                       text: 'WORD OF THE DAY\n',
                       style: TextStyle(
-                        fontSize: 20.0,
-                      )),
+                          fontSize: 20.0, fontWeight: FontWeight.bold)),
                 ),
               ],
             ),
@@ -39,7 +38,6 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
               width: screenWidth * 0.6,
               margin: const EdgeInsets.all(20),
               padding: const EdgeInsets.all(10),
-              color: Colors.purple.shade200,
               child: Column(
                 children: const [
                   Text('Highlights'),

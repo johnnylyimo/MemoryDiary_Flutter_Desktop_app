@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Memory Diary',
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(),
       home: Home(),
     );
   }

@@ -35,6 +35,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
             ),
           ),
           Container(
+            width: screenWidth * 0.6,
             margin: const EdgeInsets.all(20),
             padding: const EdgeInsets.all(10),
             color: Colors.purple.shade200,

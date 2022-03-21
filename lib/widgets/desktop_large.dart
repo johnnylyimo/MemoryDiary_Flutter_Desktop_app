@@ -32,7 +32,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                         fontWeight: FontWeight.bold,
                         color: Colors.black,
                       ),
-                      children: [TextSpan()]),
+                      children: [
+                        TextSpan(text: 'Today will be better than yesterday'),
+                      ]),
                 ),
               ],
             ),

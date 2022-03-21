@@ -42,7 +42,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                 ),
                 const Text(
                   'Anytime something positive happens, make a note of it and come back to it later.',
-                  style: TextStyle(),
+                  style: TextStyle(
+                    fontSize: 18.0,
+                  ),
                 ),
               ],
             ),

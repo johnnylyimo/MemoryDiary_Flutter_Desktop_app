@@ -23,12 +23,16 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
               children: [
                 RichText(
                   text: const TextSpan(
-                      text: 'WORD OF THE DAY\n', style: TextStyle()),
+                      text: 'WORD OF THE DAY\n',
+                      style: TextStyle(
+                        fontSize: 20.0,
+                      )),
                 ),
               ],
             ),
           ),
           Container(
+            color: Colors.purple.shade200,
             child: Column(
               children: const [
                 Text('Highlights'),

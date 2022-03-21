@@ -20,6 +20,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
             margin: const EdgeInsets.all(20),
             padding: const EdgeInsets.all(10),
             decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(30),
               color: Colors.purple.shade200,
             ),
             child: Column(

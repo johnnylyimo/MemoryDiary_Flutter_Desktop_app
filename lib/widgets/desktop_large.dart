@@ -25,6 +25,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
             child: Column(
               children: [
                 RichText(
+                  textAlign: TextAlign.center,
                   text: const TextSpan(
                       text: 'WORD OF THE DAY\n',
                       style: TextStyle(
@@ -36,6 +37,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                         TextSpan(text: 'Today will be better than yesterday'),
                       ]),
                 ),
+                const SizedBox(),
               ],
             ),
           ),

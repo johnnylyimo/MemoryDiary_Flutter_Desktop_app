@@ -22,7 +22,8 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
             child: Column(
               children: [
                 RichText(
-                  text: const TextSpan(text: 'WORD OF THE DAY\n'),
+                  text: const TextSpan(
+                      text: 'WORD OF THE DAY\n', style: TextStyle()),
                 ),
               ],
             ),

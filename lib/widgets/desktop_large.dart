@@ -37,7 +37,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                         TextSpan(text: 'Today will be better than yesterday'),
                       ]),
                 ),
-                const SizedBox(),
+                const SizedBox(
+                  height: 20.0,
+                ),
               ],
             ),
           ),

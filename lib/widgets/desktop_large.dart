@@ -28,7 +28,10 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                   text: const TextSpan(
                       text: 'WORD OF THE DAY\n',
                       style: TextStyle(
-                          fontSize: 20.0, fontWeight: FontWeight.bold)),
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black,
+                      )),
                 ),
               ],
             ),

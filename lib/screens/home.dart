@@ -8,11 +8,13 @@ class Home extends StatefulWidget {
   State<Home> createState() => _HomeState();
 }
 
+// color: Color(0xffF4BEEE),
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: const Color(0xffECA3F5),
         centerTitle: true,
         title: const Text('Memory Diary'),
       ),

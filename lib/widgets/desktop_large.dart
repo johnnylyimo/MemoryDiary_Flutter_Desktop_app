@@ -57,6 +57,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                   autofocus: true,
                   controller: memoryController,
                   keyboardType: TextInputType.multiline,
+                  maxLines: 5,
                   decoration: const InputDecoration(
                     labelText: 'Write new memory here',
                     labelStyle: TextStyle(

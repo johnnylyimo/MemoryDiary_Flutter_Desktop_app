@@ -56,6 +56,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                   keyboardType: TextInputType.multiline,
                   decoration: const InputDecoration(
                     labelText: 'Write new memory here',
+                    labelStyle: TextStyle(),
                     enabledBorder: OutlineInputBorder(
                       borderSide: BorderSide(
                         color: Colors.black,

@@ -53,38 +53,40 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                 const SizedBox(
                   height: 20.0,
                 ),
-                TextFormField(
-                  autofocus: true,
-                  controller: memoryController,
-                  keyboardType: TextInputType.multiline,
-                  maxLines: 5,
-                  validator: (String? val) =>
-                      val!.isEmpty ? 'Enter memory' : null,
-                  decoration: const InputDecoration(
-                    labelText: 'Write new memory here',
-                    labelStyle: TextStyle(
-                      color: Colors.black,
-                      fontSize: 20.0,
-                    ),
-                    prefixIcon: Icon(
-                      Icons.notes,
-                      color: Colors.purple,
-                    ),
-                    enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(
+                Form(
+                  child: TextFormField(
+                    autofocus: true,
+                    controller: memoryController,
+                    keyboardType: TextInputType.multiline,
+                    maxLines: 5,
+                    validator: (String? val) =>
+                        val!.isEmpty ? 'Enter memory' : null,
+                    decoration: const InputDecoration(
+                      labelText: 'Write new memory here',
+                      labelStyle: TextStyle(
                         color: Colors.black,
+                        fontSize: 20.0,
                       ),
-                      borderRadius: BorderRadius.all(
-                        Radius.circular(10.0),
-                      ),
-                    ),
-                    focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(
-                        width: 1.5,
+                      prefixIcon: Icon(
+                        Icons.notes,
                         color: Colors.purple,
                       ),
-                      borderRadius: BorderRadius.all(
-                        Radius.circular(10.0),
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          color: Colors.black,
+                        ),
+                        borderRadius: BorderRadius.all(
+                          Radius.circular(10.0),
+                        ),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          width: 1.5,
+                          color: Colors.purple,
+                        ),
+                        borderRadius: BorderRadius.all(
+                          Radius.circular(10.0),
+                        ),
                       ),
                     ),
                   ),

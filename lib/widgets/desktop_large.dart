@@ -64,7 +64,11 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                         Radius.circular(10.0),
                       ),
                     ),
-                    focusedBorder: OutlineInputBorder(),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(
+                        color: Colors.purple,
+                      ),
+                    ),
                   ),
                 ),
               ],

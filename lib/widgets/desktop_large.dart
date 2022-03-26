@@ -66,6 +66,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                     ),
                     prefixIcon: Icon(
                       Icons.notes,
+                      color: Colors.purple,
                     ),
                     enabledBorder: OutlineInputBorder(
                       borderSide: BorderSide(

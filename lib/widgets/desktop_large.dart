@@ -50,7 +50,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                     fontSize: 18.0,
                   ),
                 ),
-                TextFormField(),
+                TextFormField(
+                  autofocus: true,
+                ),
               ],
             ),
           ),

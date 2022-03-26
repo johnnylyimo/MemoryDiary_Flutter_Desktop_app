@@ -58,6 +58,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                     labelText: 'Write new memory here',
                     labelStyle: TextStyle(
                       color: Colors.black,
+                      fontSize: 20.0,
                     ),
                     enabledBorder: OutlineInputBorder(
                       borderSide: BorderSide(

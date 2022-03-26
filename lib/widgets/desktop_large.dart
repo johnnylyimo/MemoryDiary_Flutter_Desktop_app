@@ -8,6 +8,8 @@ class DesktopLargeView extends StatefulWidget {
 }
 
 class _DesktopLargeViewState extends State<DesktopLargeView> {
+  var memoryController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;

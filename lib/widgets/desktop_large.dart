@@ -58,7 +58,8 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                   controller: memoryController,
                   keyboardType: TextInputType.multiline,
                   maxLines: 5,
-                  validator: (val) => val!.isEmpty ? 'Enter memory' : null,
+                  validator: (String? val) =>
+                      val!.isEmpty ? 'Enter memory' : null,
                   decoration: const InputDecoration(
                     labelText: 'Write new memory here',
                     labelStyle: TextStyle(
@@ -88,6 +89,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                     ),
                   ),
                 ),
+                const SizedBox(),
               ],
             ),
           ),

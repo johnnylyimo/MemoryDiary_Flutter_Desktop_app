@@ -9,6 +9,7 @@ class DesktopLargeView extends StatefulWidget {
 
 class _DesktopLargeViewState extends State<DesktopLargeView> {
   var memoryController = TextEditingController();
+  final _formKey = GlobalKey<FormState>();
 
   @override
   Widget build(BuildContext context) {

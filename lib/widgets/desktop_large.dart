@@ -50,7 +50,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                     fontSize: 18.0,
                   ),
                 ),
-                const SizedBox(),
+                const SizedBox(
+                  height: 20.0,
+                ),
                 TextFormField(
                   autofocus: true,
                   controller: memoryController,

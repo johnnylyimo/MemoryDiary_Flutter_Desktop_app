@@ -55,6 +55,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                   height: 20.0,
                 ),
                 Form(
+                  key: _formKey,
                   child: Column(
                     children: [
                       TextFormField(

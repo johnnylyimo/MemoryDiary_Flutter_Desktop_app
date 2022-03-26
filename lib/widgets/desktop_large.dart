@@ -68,6 +68,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                       borderSide: BorderSide(
                         color: Colors.purple,
                       ),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(10.0),
+                      ),
                     ),
                   ),
                 ),

@@ -54,6 +54,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                   autofocus: true,
                   controller: memoryController,
                   keyboardType: TextInputType.multiline,
+                  decoration: InputDecoration(),
                 ),
               ],
             ),

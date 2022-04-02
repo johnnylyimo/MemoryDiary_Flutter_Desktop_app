@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:hive/hive.dart';
 
 class DesktopLargeView extends StatefulWidget {
   const DesktopLargeView({Key? key}) : super(key: key);
@@ -11,6 +10,7 @@ class DesktopLargeView extends StatefulWidget {
 class _DesktopLargeViewState extends State<DesktopLargeView> {
   var memoryController = TextEditingController();
   final _formKey = GlobalKey<FormState>();
+  Box? box;
   @override
   void initState() {
     super.initState();
@@ -104,15 +104,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                       ),
                       ElevatedButton(
                         child: const Text('Save'),
-                        onPressed: () {
-                          var box = Hive.box('memoryBox');
-
-                          box.put('name', 'David');
-
-                          var name = box.get('name');
-
-                          debugPrint('Name: $name');
-                        },
+                        onPressed: () {},
                       )
                     ],
                   ),

@@ -107,7 +107,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                       ),
                       ElevatedButton(
                         child: const Text('Save'),
-                        onPressed: () {},
+                        onPressed: () {
+                          if (_formKey.currentState!.validate()) {}
+                        },
                       )
                     ],
                   ),

@@ -126,6 +126,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                       const SizedBox(
                         height: 10.0,
                       ),
+                      Text()
                     ],
                   ),
                 ),

@@ -130,6 +130,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                         'Remember the good times',
                         style: TextStyle(
                           fontSize: 20.0,
+                          fontWeight: FontWeight.bold,
                         ),
                       )
                     ],

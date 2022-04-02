@@ -114,7 +114,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                             ScaffoldMessenger.of(context).showSnackBar(
                               SnackBar(
                                 content: Text(
-
+                                  'New memory " ${memoryController.text.substring(0, memoryController.text.length)} " Saved!',
                                 ),
                               ),
                             );

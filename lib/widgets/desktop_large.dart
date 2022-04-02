@@ -115,6 +115,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                               SnackBar(
                                 content: Text(
                                   'New memory " ${memoryController.text.substring(0, memoryController.text.length)} " Saved!',
+                                  textAlign: TextAlign.center,
                                 ),
                               ),
                             );

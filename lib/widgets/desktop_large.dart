@@ -128,6 +128,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                       ),
                       const Text(
                         'Remember the good times',
+                        style: TextStyle(),
                       )
                     ],
                   ),

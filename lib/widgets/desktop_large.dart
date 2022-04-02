@@ -108,7 +108,10 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                       ElevatedButton(
                         child: const Text('Save'),
                         onPressed: () {
-                          if (_formKey.currentState!.validate()) {}
+                          if (_formKey.currentState!.validate()) {
+                            box!.add(memoryController.text);
+                            debugPrint('DEBUG > ${box!.toMap()}');
+                          }
                         },
                       )
                     ],

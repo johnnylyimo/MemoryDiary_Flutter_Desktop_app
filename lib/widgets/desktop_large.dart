@@ -122,7 +122,8 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                             memoryController.clear();
                           }
                         },
-                      )
+                      ),
+                      const SizedBox(),
                     ],
                   ),
                 ),

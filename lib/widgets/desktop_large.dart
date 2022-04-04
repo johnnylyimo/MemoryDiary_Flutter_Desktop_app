@@ -167,7 +167,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                                 itemBuilder: (context, index) {
                                   var memories = _box.toMap();
                                   return Card(
-                                    child: ListTile(),
+                                    child: ListTile(
+                                      leading: const Icon(Icons.notes),
+                                    ),
                                   );
                                 })
                             : const Text(

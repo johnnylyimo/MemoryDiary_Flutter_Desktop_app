@@ -150,6 +150,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                     'Highlights',
                     style: TextStyle(
                       fontSize: 20.0,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ],

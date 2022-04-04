@@ -164,7 +164,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                         return _box.length != 0
                             ? ListView.builder(
                                 itemCount: _box.length,
-                              )
+                                itemBuilder: (context, index) {})
                             : const Text(
                                 'No Memory\nAdd your memory on left side panel');
                       })

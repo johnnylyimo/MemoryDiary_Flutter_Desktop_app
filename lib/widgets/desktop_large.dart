@@ -146,8 +146,8 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
               margin: const EdgeInsets.all(20),
               padding: const EdgeInsets.all(10),
               child: Column(
-                children: const [
-                  Text(
+                children: [
+                  const Text(
                     'Highlights',
                     style: TextStyle(
                       fontSize: 20.0,

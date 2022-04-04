@@ -169,6 +169,10 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                                   return Card(
                                     child: ListTile(
                                       leading: const Icon(Icons.notes),
+                                      title: Text(
+                                        memories.values.elementAt(index),
+                                        maxLines: 2,
+                                      ),
                                     ),
                                   );
                                 })

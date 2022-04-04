@@ -158,27 +158,29 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                   const SizedBox(
                     height: 20.0,
                   ),
-                  ValueListenableBuilder(
-                      valueListenable: box!.listenable(),
-                      builder: (context, Box _box, _) {
-                        return _box.length != 0
-                            ? ListView.builder(
-                                itemCount: _box.length,
-                                itemBuilder: (context, index) {
-                                  var memories = _box.toMap();
-                                  return Card(
-                                    child: ListTile(
-                                      leading: const Icon(Icons.notes),
-                                      title: Text(
-                                        memories.values.elementAt(index),
-                                        maxLines: 2,
+                  Expanded(
+                    child: ValueListenableBuilder(
+                        valueListenable: box!.listenable(),
+                        builder: (context, Box _box, _) {
+                          return _box.length != 0
+                              ? ListView.builder(
+                                  itemCount: _box.length,
+                                  itemBuilder: (context, index) {
+                                    var memories = _box.toMap();
+                                    return Card(
+                                      child: ListTile(
+                                        leading: const Icon(Icons.notes),
+                                        title: Text(
+                                          memories.values.elementAt(index),
+                                          maxLines: 2,
+                                        ),
                                       ),
-                                    ),
-                                  );
-                                })
-                            : const Text(
-                                'No Memory\nAdd your memory on left side panel');
-                      })
+                                    );
+                                  })
+                              : const Text(
+                                  'No Memory\nAdd your memory on left side panel');
+                        }),
+                  )
                 ],
               ),
             ),

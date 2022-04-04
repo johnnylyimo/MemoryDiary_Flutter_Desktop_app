@@ -148,7 +148,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                 children: const [
                   Text(
                     'Highlights',
-                    style: TextStyle(),
+                    style: TextStyle(
+                      fontSize: 20.0,
+                    ),
                   ),
                 ],
               ),

@@ -146,6 +146,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
               margin: const EdgeInsets.all(20),
               padding: const EdgeInsets.all(10),
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   const Text(
                     'Highlights',
@@ -157,6 +158,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                   const SizedBox(
                     height: 20.0,
                   ),
+                  ValueListenableBuilder()
                 ],
               ),
             ),

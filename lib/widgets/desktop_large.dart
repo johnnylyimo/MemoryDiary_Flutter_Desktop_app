@@ -154,8 +154,8 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                     ),
                   ),
                   SizedBox(
+                    height: 20.0,
                   ),
-
                 ],
               ),
             ),

@@ -159,8 +159,10 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                     height: 20.0,
                   ),
                   ValueListenableBuilder(
-                    valueListenable: box!.listenable(),
-                  )
+                      valueListenable: box!.listenable(),
+                      builder: (context, Box _box, _) {
+                        return Container();
+                      })
                 ],
               ),
             ),

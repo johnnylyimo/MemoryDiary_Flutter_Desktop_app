@@ -154,7 +154,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 20.0,
                   ),
                 ],

@@ -11,6 +11,7 @@ class DesktopLargeView extends StatefulWidget {
 
 class _DesktopLargeViewState extends State<DesktopLargeView> {
   var memoryController = TextEditingController();
+  var editMemoryController = TextEditingController();
   final _formKey = GlobalKey<FormState>();
   Box? box;
 

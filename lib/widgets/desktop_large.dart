@@ -14,6 +14,8 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
   final _formKey = GlobalKey<FormState>();
   Box? box;
 
+  editDialog() {}
+
   @override
   void initState() {
     super.initState();

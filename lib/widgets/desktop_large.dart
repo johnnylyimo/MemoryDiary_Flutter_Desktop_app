@@ -17,7 +17,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
 
   editDialog(String memory, int memoryKey) {
     editMemoryController.text = memory;
-    showDialog(context: context, builder: (context) {});
+    showDialog(context: context, builder: (context) {
+      return Dialog()
+    });
   }
 
   @override

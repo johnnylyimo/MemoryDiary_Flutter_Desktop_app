@@ -55,6 +55,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                           borderRadius: BorderRadius.all(
                             Radius.circular(10.0),
                           ),
+                          borderSide: BorderSide(color: Colors.black),
                         ),
                       ),
                     ),

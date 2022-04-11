@@ -21,8 +21,8 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
         context: context,
         builder: (context) {
           return Dialog(
-            backgroundColor: Colors.purple.shade100,
-          );
+              backgroundColor: Colors.purple.shade100,
+              shape: RoundedRectangleBorder());
         });
   }
 

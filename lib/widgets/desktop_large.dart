@@ -33,7 +33,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                 key: _editFormKey,
                 child: Column(
                   children: [
-                    TextFormField(),
+                    TextFormField(
+                      autofocus: true,
+                    ),
                   ],
                 ),
               ),

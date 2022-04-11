@@ -13,6 +13,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
   var memoryController = TextEditingController();
   var editMemoryController = TextEditingController();
   final _formKey = GlobalKey<FormState>();
+  final _editFormKey = GlobalKey<FormState>();
   Box? box;
 
   editDialog(String memory, int memoryKey) {

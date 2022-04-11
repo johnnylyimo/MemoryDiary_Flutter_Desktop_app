@@ -187,8 +187,12 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                                         maxLines: 2,
                                       ),
                                       trailing: IconButton(
-                                          icon: const Icon(Icons.edit),
-                                          onPressed: () => editDialog(memories.values.elementAt(index),memories.keys.elementAt(index),),
+                                        icon: const Icon(Icons.edit),
+                                        onPressed: () => editDialog(
+                                          memories.values.elementAt(index),
+                                          memories.keys.elementAt(index),
+                                        ),
+                                      ),
                                     ),
                                   );
                                 })

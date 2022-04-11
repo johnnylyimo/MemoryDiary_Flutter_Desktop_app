@@ -25,7 +25,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(30),
             ),
-            child: Container(),
+            child: Container(
+              padding: const EdgeInsets.all(20.0),
+            ),
           );
         });
   }

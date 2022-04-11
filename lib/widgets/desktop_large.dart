@@ -29,6 +29,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
             child: Container(
               width: MediaQuery.of(context).size.width * 0.5,
               padding: const EdgeInsets.all(20.0),
+              height: 220,
               child: Form(
                 key: _editFormKey,
                 child: Column(

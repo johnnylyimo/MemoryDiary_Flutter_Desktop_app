@@ -41,6 +41,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                       textAlign: TextAlign.center,
                       validator: (String? val) =>
                           val!.isNotEmpty ? null : 'Enter Memory',
+                      decoration: InputDecoration(),
                     ),
                   ],
                 ),

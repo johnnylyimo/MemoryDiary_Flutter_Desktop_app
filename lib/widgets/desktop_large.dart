@@ -39,6 +39,8 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                       maxLines: 3,
                       keyboardType: TextInputType.multiline,
                       textAlign: TextAlign.center,
+                      validator: (String? val) =>
+                          val!.isNotEmpty ? null : 'Enter Memory',
                     ),
                   ],
                 ),

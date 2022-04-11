@@ -38,6 +38,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                       controller: editMemoryController,
                       maxLines: 3,
                       keyboardType: TextInputType.multiline,
+                      textAlign: TextAlign.center,
                     ),
                   ],
                 ),

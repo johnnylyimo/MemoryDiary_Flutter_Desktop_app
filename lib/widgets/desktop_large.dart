@@ -27,6 +27,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
               borderRadius: BorderRadius.circular(30),
             ),
             child: Container(
+              width: MediaQuery.of(context).size.width * 0.5,
               padding: const EdgeInsets.all(20.0),
               child: Form(
                 key: _editFormKey,

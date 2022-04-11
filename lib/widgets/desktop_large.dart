@@ -45,6 +45,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                         labelText: 'Edit your Memory below',
                         prefixIcon: Icon(
                           Icons.notes,
+                          color: Colors.purple,
                         ),
                       ),
                     ),

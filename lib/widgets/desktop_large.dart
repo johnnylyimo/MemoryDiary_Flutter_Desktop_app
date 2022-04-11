@@ -188,7 +188,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                                       ),
                                       trailing: IconButton(
                                           icon: const Icon(Icons.edit),
-                                          onPressed: () => editDialog(memories.values.elementAt(index)),
+                                          onPressed: () => editDialog(memories.values.elementAt(index),memories.keys.elementAt(index),),
                                     ),
                                   );
                                 })

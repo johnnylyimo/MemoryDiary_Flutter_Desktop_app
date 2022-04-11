@@ -51,6 +51,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                           color: Colors.black,
                           fontSize: 24.0,
                         ),
+                        enabledBorder: OutlineInputBorder(),
                       ),
                     ),
                   ],

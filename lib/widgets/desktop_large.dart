@@ -36,6 +36,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                     TextFormField(
                       autofocus: true,
                       controller: editMemoryController,
+                      maxLines: 3,
                     ),
                   ],
                 ),

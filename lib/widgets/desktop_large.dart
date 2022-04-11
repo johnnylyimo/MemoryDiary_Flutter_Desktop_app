@@ -57,7 +57,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                           ),
                           borderSide: BorderSide(color: Colors.black),
                         ),
-                        focusedBorder: OutlineInputBorder(),
+                        focusedBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.all(),
+                        ),
                       ),
                     ),
                   ],

@@ -49,6 +49,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                         ),
                         labelStyle: TextStyle(
                           color: Colors.black,
+                          fontSize: 24.0,
                         ),
                       ),
                     ),

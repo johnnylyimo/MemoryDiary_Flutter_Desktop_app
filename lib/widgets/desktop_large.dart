@@ -28,7 +28,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
             ),
             child: Container(
               padding: const EdgeInsets.all(20.0),
-              child: Form(),
+              child: Form(
+                key: _editFormKey,
+              ),
             ),
           );
         });

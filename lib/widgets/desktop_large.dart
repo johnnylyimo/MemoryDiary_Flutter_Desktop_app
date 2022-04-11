@@ -47,7 +47,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                           Icons.notes,
                           color: Colors.purple,
                         ),
-                        labelStyle: TextStyle(),
+                        labelStyle: TextStyle(
+                          color: Colors.black,
+                        ),
                       ),
                     ),
                   ],

@@ -79,7 +79,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                           Navigator.pop(context);
                           ScaffoldMessenger.of(context).showSnackBar(
                             SnackBar(
-                              content: Text(),
+                              content: Text(
+                                'The memory " ${editMemoryController.text.substring(0, editMemoryController.text.length)} " Edited Successfully!',
+                              ),
                             ),
                           );
                         }

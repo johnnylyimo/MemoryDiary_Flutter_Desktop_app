@@ -81,6 +81,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                             SnackBar(
                               content: Text(
                                 'The memory " ${editMemoryController.text.substring(0, editMemoryController.text.length)} " Edited Successfully!',
+                                textAlign: TextAlign.center,
                               ),
                             ),
                           );

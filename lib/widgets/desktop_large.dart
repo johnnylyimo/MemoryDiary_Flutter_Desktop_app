@@ -265,6 +265,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                                       ),
                                       onTap: () => editDialog(
                                         memories.values.elementAt(index),
+                                        memories.keys.elementAt(index),
                                       ),
                                     ),
                                   );

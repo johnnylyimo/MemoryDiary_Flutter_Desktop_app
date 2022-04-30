@@ -59,7 +59,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
               key: _formKey,
               child: Column(
                 children: [
-                  TextFormField(),
+                  TextFormField(
+                    autofocus: true,
+                  ),
                 ],
               ),
             ),

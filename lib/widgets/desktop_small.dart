@@ -9,6 +9,7 @@ class DesktopSmallView extends StatefulWidget {
 
 class _DesktopSmallViewState extends State<DesktopSmallView> {
   var memoryController = TextEditingController();
+  var editMemoryController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {

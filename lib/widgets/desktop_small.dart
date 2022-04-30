@@ -16,7 +16,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
         width: screenWidth,
         margin: const EdgeInsets.all(20),
         padding: const EdgeInsets.all(10),
-        decoration: BoxDecoration(),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(30),
+        ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [

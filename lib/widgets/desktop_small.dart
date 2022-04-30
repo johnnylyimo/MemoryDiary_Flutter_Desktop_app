@@ -13,7 +13,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
     final screenWidth = MediaQuery.of(context).size.width;
     return Scaffold(
       body: Container(
+        width: screenWidth,
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             RichText(
               textAlign: TextAlign.center,

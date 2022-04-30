@@ -47,7 +47,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                 fontSize: 18.0,
               ),
             ),
-            const SizedBox(),
+            const SizedBox(
+              height: 20.0,
+            ),
           ],
         ),
       ),

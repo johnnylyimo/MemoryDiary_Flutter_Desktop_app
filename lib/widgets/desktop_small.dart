@@ -72,7 +72,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                         color: Colors.black,
                         fontSize: 20.0,
                       ),
-                      prefixIcon: Icon(),
+                      prefixIcon: Icon(
+                        Icons.notes,
+                      ),
                     ),
                   ),
                 ],

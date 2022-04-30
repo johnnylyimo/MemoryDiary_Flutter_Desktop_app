@@ -68,6 +68,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                         val!.isEmpty ? 'Enter memory' : null,
                     decoration: const InputDecoration(
                       labelText: 'Write new memory here',
+                      labelStyle: TextStyle(),
                     ),
                   ),
                 ],

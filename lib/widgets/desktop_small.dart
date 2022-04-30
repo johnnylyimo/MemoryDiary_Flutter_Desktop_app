@@ -40,7 +40,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
             const SizedBox(
               height: 20.0,
             ),
-            const Text(),
+            const Text(
+              'Anytime something positive happens, make a note of it and come back to it later.',
+            ),
           ],
         ),
       ),

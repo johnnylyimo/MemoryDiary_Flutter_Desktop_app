@@ -17,7 +17,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
             textAlign: TextAlign.center,
             text: const TextSpan(
               text: 'WORD OF THE DAY\n',
-              style: TextStyle(),
+              style: TextStyle(
+                fontSize: 20.0,
+              ),
             ),
           ),
         ],

@@ -19,6 +19,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
               text: 'WORD OF THE DAY\n',
               style: TextStyle(
                 fontSize: 20.0,
+                fontWeight: FontWeight.bold,
               ),
             ),
           ),

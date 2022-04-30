@@ -8,6 +8,8 @@ class DesktopSmallView extends StatefulWidget {
 }
 
 class _DesktopSmallViewState extends State<DesktopSmallView> {
+  var memoryController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;

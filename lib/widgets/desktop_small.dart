@@ -55,7 +55,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
             const SizedBox(
               height: 20.0,
             ),
-            Form(),
+            Form(
+              key: _formKey,
+            ),
           ],
         ),
       ),

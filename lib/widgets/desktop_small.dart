@@ -20,6 +20,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
               style: TextStyle(
                 fontSize: 20.0,
                 fontWeight: FontWeight.bold,
+                color: Colors.black,
               ),
             ),
           ),

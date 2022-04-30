@@ -61,6 +61,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                 children: [
                   TextFormField(
                     autofocus: true,
+                    controller: memoryController,
                   ),
                 ],
               ),

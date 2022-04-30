@@ -33,7 +33,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                     color: Colors.black,
                   ),
                   children: [
-                    TextSpan(),
+                    TextSpan(text: 'Today will be better than yesterday'),
                   ]),
             ),
           ],

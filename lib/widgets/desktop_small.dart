@@ -26,16 +26,18 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
             RichText(
               textAlign: TextAlign.center,
               text: const TextSpan(
-                  text: 'WORD OF THE DAY\n',
-                  style: TextStyle(
-                    fontSize: 20.0,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.black,
-                  ),
-                  children: [
-                    TextSpan(text: 'Today will be better than yesterday'),
-                  ]),
+                text: 'WORD OF THE DAY\n',
+                style: TextStyle(
+                  fontSize: 20.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                ),
+                children: [
+                  TextSpan(text: 'Today will be better than yesterday'),
+                ],
+              ),
             ),
+            const SizedBox(),
           ],
         ),
       ),

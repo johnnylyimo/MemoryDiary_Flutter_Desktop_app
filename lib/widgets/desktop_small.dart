@@ -74,6 +74,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                       ),
                       prefixIcon: Icon(
                         Icons.notes,
+                        color: Colors.purple,
                       ),
                     ),
                   ),

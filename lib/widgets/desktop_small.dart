@@ -76,6 +76,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                         Icons.notes,
                         color: Colors.purple,
                       ),
+                      enabledBorder: OutlineInputBorder(),
                     ),
                   ),
                 ],

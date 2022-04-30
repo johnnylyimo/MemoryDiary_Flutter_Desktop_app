@@ -66,6 +66,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                     maxLines: 5,
                     validator: (String? val) =>
                         val!.isEmpty ? 'Enter memory' : null,
+                decoration: const InputDecoration(),
                   ),
                 ],
               ),

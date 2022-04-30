@@ -12,8 +12,10 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: const [
-          RichText(),
+        children: [
+          RichText(
+            textAlign: TextAlign.center,
+          ),
         ],
       ),
     );

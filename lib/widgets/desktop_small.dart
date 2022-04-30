@@ -15,7 +15,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
         children: [
           RichText(
             textAlign: TextAlign.center,
-            text: const TextSpan(),
+            text: const TextSpan(
+              text: 'WORD OF THE DAY\n',
+            ),
           ),
         ],
       ),

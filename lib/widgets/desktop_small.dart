@@ -10,6 +10,8 @@ class DesktopSmallView extends StatefulWidget {
 class _DesktopSmallViewState extends State<DesktopSmallView> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Column(),
+    );
   }
 }

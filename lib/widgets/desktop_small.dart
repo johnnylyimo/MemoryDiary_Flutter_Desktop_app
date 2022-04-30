@@ -64,6 +64,8 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                     controller: memoryController,
                     keyboardType: TextInputType.multiline,
                     maxLines: 5,
+                    validator: (String? val) =>
+                        val!.isEmpty ? 'Enter memory' : null,
                   ),
                 ],
               ),

@@ -62,6 +62,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                   TextFormField(
                     autofocus: true,
                     controller: memoryController,
+                    keyboardType: TextInputType.multiline,
                   ),
                 ],
               ),

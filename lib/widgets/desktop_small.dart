@@ -11,7 +11,11 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(),
+      body: Column(
+        children: const [
+          RichText(),
+        ],
+      ),
     );
   }
 }

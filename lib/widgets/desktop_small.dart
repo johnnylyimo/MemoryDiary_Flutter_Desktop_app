@@ -10,6 +10,7 @@ class DesktopSmallView extends StatefulWidget {
 class _DesktopSmallViewState extends State<DesktopSmallView> {
   var memoryController = TextEditingController();
   var editMemoryController = TextEditingController();
+  final _formKey = GlobalKey<FormState>();
 
   @override
   Widget build(BuildContext context) {

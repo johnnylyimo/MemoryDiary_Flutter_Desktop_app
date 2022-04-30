@@ -11,7 +11,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
   var memoryController = TextEditingController();
   var editMemoryController = TextEditingController();
   final _formKey = GlobalKey<FormState>();
-  final _editFormKey = GlobalKey<FormState>()
+  final _editFormKey = GlobalKey<FormState>();
 
   @override
   Widget build(BuildContext context) {
@@ -55,6 +55,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
             const SizedBox(
               height: 20.0,
             ),
+            Form(),
           ],
         ),
       ),

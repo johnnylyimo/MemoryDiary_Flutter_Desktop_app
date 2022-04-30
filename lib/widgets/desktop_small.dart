@@ -10,6 +10,7 @@ class DesktopSmallView extends StatefulWidget {
 class _DesktopSmallViewState extends State<DesktopSmallView> {
   @override
   Widget build(BuildContext context) {
+    final screenWidth = MediaQuery.of(context).size.width;
     return Scaffold(
       body: Container(
         child: Column(

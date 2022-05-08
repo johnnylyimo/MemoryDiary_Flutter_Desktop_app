@@ -67,24 +67,27 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                     validator: (String? val) =>
                         val!.isEmpty ? 'Enter memory' : null,
                     decoration: const InputDecoration(
-                        labelText: 'Write new memory here',
-                        labelStyle: TextStyle(
+                      labelText: 'Write new memory here',
+                      labelStyle: TextStyle(
+                        color: Colors.black,
+                        fontSize: 20.0,
+                      ),
+                      prefixIcon: Icon(
+                        Icons.notes,
+                        color: Colors.purple,
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(
                           color: Colors.black,
-                          fontSize: 20.0,
                         ),
-                        prefixIcon: Icon(
-                          Icons.notes,
-                          color: Colors.purple,
+                        borderRadius: BorderRadius.all(
+                          Radius.circular(10.0),
                         ),
-                        enabledBorder: OutlineInputBorder(
-                          borderSide: BorderSide(
-                            color: Colors.black,
-                          ),
-                          borderRadius: BorderRadius.all(
-                            Radius.circular(10.0),
-                          ),
-                        ),
-                        focusedBorder: OutlineInputBorder()),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(),
+                      ),
+                    ),
                   ),
                 ],
               ),

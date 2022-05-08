@@ -111,7 +111,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                       'Save',
                     ),
                     onPressed: () {
-                      if (_formKey.currentState!.validate()) {}
+                      if (_formKey.currentState!.validate()) {
+                        box!.add();
+                      }
                     },
                   )
                 ],

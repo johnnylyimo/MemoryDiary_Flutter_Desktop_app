@@ -114,7 +114,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                       if (_formKey.currentState!.validate()) {
                         box!.add(memoryController.text);
                         ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(),
+                          SnackBar(
+                            content: Text(),
+                          ),
                         );
                       }
                     },

@@ -102,7 +102,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                     child: const Text(
                       'Save',
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      if (_formKey.currentState!.validate()) {}
+                    },
                   )
                 ],
               ),

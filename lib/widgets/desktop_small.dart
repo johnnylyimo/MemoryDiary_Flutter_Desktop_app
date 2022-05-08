@@ -16,6 +16,11 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
   Box? box;
 
   @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
     return Scaffold(

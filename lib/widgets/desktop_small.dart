@@ -114,7 +114,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                       padding: EdgeInsets.all(screenWidth * .01),
                       primary: Colors.purple.shade500,
                       shape: const StadiumBorder(),
-                      textStyle: TextStyle(),
+                      textStyle: TextStyle(
+                        fontSize: max(16, screenWidth / 20),
+                      ),
                     ),
                     onPressed: () {
                       if (_formKey.currentState!.validate()) {

@@ -112,7 +112,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                     ),
                     onPressed: () {
                       if (_formKey.currentState!.validate()) {
-                        box!.add();
+                        box!.add(memoryController.text);
                       }
                     },
                   )

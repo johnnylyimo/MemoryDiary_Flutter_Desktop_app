@@ -110,6 +110,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                     child: const Text(
                       'Save',
                     ),
+                    style: ElevatedButton.styleFrom(),
                     onPressed: () {
                       if (_formKey.currentState!.validate()) {
                         box!.add(memoryController.text);

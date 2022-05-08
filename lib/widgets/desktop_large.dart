@@ -215,6 +215,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                           fontSize: 20.0,
                           fontWeight: FontWeight.bold,
                         ),
+                        textAlign: TextAlign.center,
                       )
                     ],
                   ),

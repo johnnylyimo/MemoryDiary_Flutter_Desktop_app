@@ -115,7 +115,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                         box!.add(memoryController.text);
                         ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(
-                            content: Text(),
+                            content: Text(
+                              'New memory " ${memoryController.text.substring(0, memoryController.text.length)} " Saved!',
+                            ),
                           ),
                         );
                       }

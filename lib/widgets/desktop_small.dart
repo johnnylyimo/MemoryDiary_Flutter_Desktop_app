@@ -133,6 +133,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                       fontSize: 20.0,
                       fontWeight: FontWeight.bold,
                     ),
+                    textAlign: TextAlign.center,
                   )
                 ],
               ),

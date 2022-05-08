@@ -12,7 +12,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
   var editMemoryController = TextEditingController();
   final _formKey = GlobalKey<FormState>();
   final _editFormKey = GlobalKey<FormState>();
-
+  Box? box;
   @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;

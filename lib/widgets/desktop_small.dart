@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hive/hive.dart';
 
 class DesktopSmallView extends StatefulWidget {
   const DesktopSmallView({Key? key}) : super(key: key);
@@ -13,6 +14,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
   final _formKey = GlobalKey<FormState>();
   final _editFormKey = GlobalKey<FormState>();
   Box? box;
+
   @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;

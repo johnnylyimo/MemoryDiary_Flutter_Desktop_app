@@ -18,6 +18,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
   @override
   void initState() {
     super.initState();
+    box = Hive.box('memoryBox');
   }
 
   @override

@@ -129,6 +129,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                   ),
                   const Text(
                     'Remember the good times',
+                    style: TextStyle(),
                   )
                 ],
               ),

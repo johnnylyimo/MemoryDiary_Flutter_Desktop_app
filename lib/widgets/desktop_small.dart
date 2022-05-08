@@ -89,6 +89,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                           width: 1.5,
                           color: Colors.purple,
                         ),
+                        borderRadius: BorderRadius.all(),
                       ),
                     ),
                   ),

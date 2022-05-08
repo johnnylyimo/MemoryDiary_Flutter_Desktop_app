@@ -85,7 +85,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                         ),
                       ),
                       focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(),
+                        borderSide: BorderSide(
+                          width: 1.5,
+                        ),
                       ),
                     ),
                   ),

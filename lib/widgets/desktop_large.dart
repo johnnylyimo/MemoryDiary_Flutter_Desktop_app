@@ -192,6 +192,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                         child: const Text('Save'),
                         style: ElevatedButton.styleFrom(
                           padding: EdgeInsets.all(screenWidth * .01),
+                          primary: Colors.purple.shade500,
                         ),
                         onPressed: () {
                           if (_formKey.currentState!.validate()) {

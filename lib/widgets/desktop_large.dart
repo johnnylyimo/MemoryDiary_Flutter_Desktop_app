@@ -190,7 +190,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                       ),
                       ElevatedButton(
                         child: const Text('Save'),
-                        style: ElevatedButton.styleFrom(),
+                        style: ElevatedButton.styleFrom(
+                          padding: EdgeInsets.all(screenWidth * .01),
+                        ),
                         onPressed: () {
                           if (_formKey.currentState!.validate()) {
                             box!.add(memoryController.text);

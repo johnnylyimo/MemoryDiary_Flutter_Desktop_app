@@ -147,6 +147,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                         ),
                         textAlign: TextAlign.center,
                       )
+                      // Second  section
+                  const Text()
+
                     ],
                   ),
                 ),

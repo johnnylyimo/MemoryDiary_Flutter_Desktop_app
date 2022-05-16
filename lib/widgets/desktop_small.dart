@@ -167,7 +167,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
           ),
           ValueListenableBuilder(
             valueListenable: box!.listenable(),
-          )
+    builder: (context, Box _box, _) {
+    return  }
+    )
         ],
       ),
     );

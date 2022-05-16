@@ -148,19 +148,19 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                         textAlign: TextAlign.center,
                       ),
                       // Second  section
-                      const Text(
-                        'Highlights',
-                        style: TextStyle(
-                          fontSize: 20.0,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      )
                     ],
                   ),
                 ),
               ],
             ),
           ),
+          const Text(
+            'Highlights',
+            style: TextStyle(
+              fontSize: 20.0,
+              fontWeight: FontWeight.bold,
+            ),
+          )
         ],
       ),
     );

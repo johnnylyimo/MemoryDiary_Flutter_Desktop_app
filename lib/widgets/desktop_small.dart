@@ -172,7 +172,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                     ? ListView.builder(
                         itemCount: _box.length,
                         itemBuilder: (context, index) {
-                          return;
+                          return Card();
                         })
                     : const Text('No Memory\nAdd your memory above');
               })

@@ -166,11 +166,12 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
             height: 20.0,
           ),
           ValueListenableBuilder(
-            valueListenable: box!.listenable(),
-    builder: (context, Box _box, _) {
-    return _box.length != 0
-        ? ListView.builder():Text() }
-    )
+              valueListenable: box!.listenable(),
+              builder: (context, Box _box, _) {
+                return _box.length != 0
+                    ? ListView.builder()
+                    : const Text('No Memory\nAdd your memory above');
+              })
         ],
       ),
     );

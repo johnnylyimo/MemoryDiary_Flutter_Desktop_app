@@ -174,7 +174,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                         itemBuilder: (context, index) {
                           var memories = _box.toMap();
                           return Card(
-                            child: ListTile(),
+                            child: ListTile(
+                              leading: const Icon(Icons.notes),
+                            ),
                           );
                         })
                     : const Text('No Memory\nAdd your memory above');

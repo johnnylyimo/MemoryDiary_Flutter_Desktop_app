@@ -178,6 +178,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                               leading: const Icon(Icons.notes),
                               title: Text(
                                 memories.values.elementAt(index),
+                                maxLines: 2,
                               ),
                             ),
                           );

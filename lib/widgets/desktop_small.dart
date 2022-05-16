@@ -14,7 +14,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
   var memoryController = TextEditingController();
   var editMemoryController = TextEditingController();
   final _formKey = GlobalKey<FormState>();
-  final _editFormKey = GlobalKey<FormState>();
+  // final _editFormKey = GlobalKey<FormState>();
   Box? box;
 
   @override
@@ -150,7 +150,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                       // Second  section
                       const Text(
                         'Highlights',
-                        style: TextStyle(),
+                        style: TextStyle(
+                          fontSize: 20.0,
+                        ),
                       )
                     ],
                   ),

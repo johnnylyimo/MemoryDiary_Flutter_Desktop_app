@@ -176,6 +176,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                           return Card(
                             child: ListTile(
                               leading: const Icon(Icons.notes),
+                              title: Text(),
                             ),
                           );
                         })

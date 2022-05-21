@@ -20,7 +20,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
 
   editDialog(String memory, int memoryKey) {
     editMemoryController.text = memory;
-    showDialog()
+    showDialog(
+      context: context,
+    );
   }
 
   @override

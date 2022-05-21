@@ -76,6 +76,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                     height: 20.0,
                   ),
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [],
                   ),
                 ],

@@ -42,6 +42,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                     textAlign: TextAlign.center,
                     validator: (String? val) =>
                         val!.isNotEmpty ? null : 'Enter Memory',
+                    decoration: const InputDecoration(),
                   ),
                 ],
               ),

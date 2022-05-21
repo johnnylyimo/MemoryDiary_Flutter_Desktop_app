@@ -84,7 +84,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                               Colors.red,
                             ),
                           ),
-                          onPressed: () {},
+                          onPressed: () {
+                            box!.delete(memoryKey);
+                          },
                         ),
                         SizedBox(
                           width: 30.0,

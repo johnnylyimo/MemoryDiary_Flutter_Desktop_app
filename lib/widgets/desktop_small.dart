@@ -22,6 +22,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
     editMemoryController.text = memory;
     showDialog(
       context: context,
+      builder: (context) {},
     );
   }
 

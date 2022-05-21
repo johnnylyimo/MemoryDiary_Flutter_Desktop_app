@@ -48,6 +48,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                       labelText: 'Edit your Memory below',
                       prefixIcon: Icon(
                         Icons.notes,
+                        color: Colors.purple,
                       ),
                     ),
                   ),

@@ -62,6 +62,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                           color: Colors.black,
                         ),
                       ),
+                      focusedBorder: OutlineInputBorder(),
                     ),
                   ),
                 ],

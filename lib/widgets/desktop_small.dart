@@ -25,7 +25,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
       builder: (context) {
         return Dialog(
           backgroundColor: Colors.purple.shade100,
-          shape: RoundedRectangleBorder(),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(30),
+          ),
         );
       },
     );

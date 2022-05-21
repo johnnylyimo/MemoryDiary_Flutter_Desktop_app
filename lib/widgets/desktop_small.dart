@@ -79,7 +79,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      ElevatedButton(),
+                      ElevatedButton(
+                        child: const Text(),
+                      ),
                     ],
                   ),
                 ],

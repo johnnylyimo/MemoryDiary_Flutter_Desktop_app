@@ -73,22 +73,26 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                     const SizedBox(
                       height: 20.0,
                     ),
-                    ElevatedButton(
-                      child: const Text('Save'),
-                      onPressed: () {
-                        if (_editFormKey.currentState!.validate()) {
-                          box!.put(memoryKey, editMemoryController.text);
-                          Navigator.pop(context);
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            SnackBar(
-                              content: Text(
-                                'The memory " ${editMemoryController.text.substring(0, editMemoryController.text.length)} " Edited Successfully!',
-                                textAlign: TextAlign.center,
-                              ),
-                            ),
-                          );
-                        }
-                      },
+                    Row(
+                      children: [
+                        ElevatedButton(
+                          child: const Text('Save'),
+                          onPressed: () {
+                            if (_editFormKey.currentState!.validate()) {
+                              box!.put(memoryKey, editMemoryController.text);
+                              Navigator.pop(context);
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                SnackBar(
+                                  content: Text(
+                                    'The memory " ${editMemoryController.text.substring(0, editMemoryController.text.length)} " Edited Successfully!',
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ),
+                              );
+                            }
+                          },
+                        ),
+                      ],
                     ),
                   ],
                 ),

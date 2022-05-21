@@ -30,7 +30,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
           ),
           child: Container(
             width: MediaQuery.of(context).size.width * 0.8,
-            child: Form(),
+            child: Form(
+              key: _editFormKey,
+            ),
           ),
         );
       },

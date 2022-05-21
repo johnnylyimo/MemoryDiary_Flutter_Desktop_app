@@ -38,6 +38,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                     autofocus: true,
                     controller: editMemoryController,
                     maxLines: 3,
+                    keyboardType: TextInputType.multiline,
                     textAlign: TextAlign.center,
                   ),
                 ],

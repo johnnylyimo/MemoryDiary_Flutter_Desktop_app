@@ -18,6 +18,8 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
   // final _editFormKey = GlobalKey<FormState>();
   Box? box;
 
+  editDialog() {}
+
   @override
   void initState() {
     super.initState();

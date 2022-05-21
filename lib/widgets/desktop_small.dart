@@ -32,12 +32,15 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
             width: MediaQuery.of(context).size.width * 0.8,
             child: Form(
               key: _editFormKey,
-              child: Column(children: [
-                TextFormField(
-                  autofocus: true,
-                  controller: editMemoryController,
-                ),
-              ]),
+              child: Column(
+                children: [
+                  TextFormField(
+                    autofocus: true,
+                    controller: editMemoryController,
+                    maxLines: 3,
+                  ),
+                ],
+              ),
             ),
           ),
         );

@@ -75,7 +75,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                     ),
                     Row(
                       children: [
-                        SizedBox(),
+                        SizedBox(
+                          width: 30.0,
+                        ),
                         ElevatedButton(
                           child: const Text('Save'),
                           onPressed: () {

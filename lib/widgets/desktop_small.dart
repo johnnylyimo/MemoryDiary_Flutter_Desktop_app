@@ -58,7 +58,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                         borderRadius: BorderRadius.all(
                           Radius.circular(10.0),
                         ),
-                        borderSide: BorderSide(),
+                        borderSide: BorderSide(
+                          color: Colors.black,
+                        ),
                       ),
                     ),
                   ),

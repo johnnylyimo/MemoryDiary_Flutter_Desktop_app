@@ -155,6 +155,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
               ],
             ),
           ),
+          const SizedBox(),
           const Text(
             'Highlights',
             style: TextStyle(

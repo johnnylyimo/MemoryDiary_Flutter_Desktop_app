@@ -74,6 +74,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                       height: 20.0,
                     ),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         ElevatedButton(
                           child: const Text('Delete'),

@@ -86,6 +86,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                             Colors.red,
                           ),
                         ),
+                        onPressed: () {},
                       ),
                     ],
                   ),

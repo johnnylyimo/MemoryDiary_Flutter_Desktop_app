@@ -81,7 +81,11 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                     children: [
                       ElevatedButton(
                         child: const Text('Delete'),
-                        style: ButtonStyle(),
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(
+                            Colors.red,
+                          ),
+                        ),
                       ),
                     ],
                   ),

@@ -45,16 +45,21 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                     validator: (String? val) =>
                         val!.isNotEmpty ? null : 'Enter Memory',
                     decoration: const InputDecoration(
-                        labelText: 'Edit your Memory below',
-                        prefixIcon: Icon(
-                          Icons.notes,
-                          color: Colors.purple,
+                      labelText: 'Edit your Memory below',
+                      prefixIcon: Icon(
+                        Icons.notes,
+                        color: Colors.purple,
+                      ),
+                      labelStyle: TextStyle(
+                        color: Colors.black,
+                        fontSize: 24.0,
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.all(
+                          Radius.circular(10.0),
                         ),
-                        labelStyle: TextStyle(
-                          color: Colors.black,
-                          fontSize: 24.0,
-                        ),
-                        enabledBorder: OutlineInputBorder()),
+                      ),
+                    ),
                   ),
                 ],
               ),

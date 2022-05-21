@@ -77,7 +77,10 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                       children: [
                         ElevatedButton(
                           child: const Text('Delete'),
-                          style: ButtonStyle(),
+                          style: ButtonStyle(
+
+                          ),
+                onPressed: (){},
                           ),
                         ),
                         SizedBox(

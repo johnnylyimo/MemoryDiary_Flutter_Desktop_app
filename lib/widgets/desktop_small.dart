@@ -186,7 +186,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                                 ),
                                 trailing: IconButton(
                                   icon: const Icon(Icons.edit),
-                                  onPressed: () => editDialog(),
+                                  onPressed: () => editDialog(
+                                    memories.values.elementAt(index),
+                                  ),
                                 ),
                               ),
                             );

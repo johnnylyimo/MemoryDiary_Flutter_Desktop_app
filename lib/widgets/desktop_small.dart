@@ -52,6 +52,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                       ),
                       labelStyle: TextStyle(
                         color: Colors.black,
+                        fontSize: 24.0,
                       ),
                     ),
                   ),

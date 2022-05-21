@@ -50,7 +50,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                         Icons.notes,
                         color: Colors.purple,
                       ),
-                      labelStyle: TextStyle(),
+                      labelStyle: TextStyle(
+                        color: Colors.black,
+                      ),
                     ),
                   ),
                 ],

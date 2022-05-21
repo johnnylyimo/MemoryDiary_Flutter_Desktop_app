@@ -184,6 +184,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                                   memories.values.elementAt(index),
                                   maxLines: 2,
                                 ),
+                                trailing: IconButton(),
                               ),
                             );
                           })

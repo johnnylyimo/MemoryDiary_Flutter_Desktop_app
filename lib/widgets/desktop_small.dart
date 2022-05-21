@@ -35,12 +35,12 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
               child: Column(
                 children: [
                   TextFormField(
-                    autofocus: true,
-                    controller: editMemoryController,
-                    maxLines: 3,
-                    keyboardType: TextInputType.multiline,
-                    textAlign: TextAlign.center,
-                  ),
+                      autofocus: true,
+                      controller: editMemoryController,
+                      maxLines: 3,
+                      keyboardType: TextInputType.multiline,
+                      textAlign: TextAlign.center,
+                      validator: (String? val) {}),
                 ],
               ),
             ),

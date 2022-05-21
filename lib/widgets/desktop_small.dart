@@ -28,6 +28,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(30),
           ),
+          child: Container(),
         );
       },
     );

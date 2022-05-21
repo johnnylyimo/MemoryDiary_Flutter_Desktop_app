@@ -86,9 +86,10 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                           ),
                           onPressed: () {
                             box!.delete(memoryKey);
+                            Navigator.pop(context);
                           },
                         ),
-                        SizedBox(
+                        const SizedBox(
                           width: 30.0,
                         ),
                         ElevatedButton(

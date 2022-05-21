@@ -15,7 +15,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
   var memoryController = TextEditingController();
   var editMemoryController = TextEditingController();
   final _formKey = GlobalKey<FormState>();
-  // final _editFormKey = GlobalKey<FormState>();
+  final _editFormKey = GlobalKey<FormState>();
   Box? box;
 
   editDialog(String memory, int memoryKey) {
@@ -30,6 +30,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
           ),
           child: Container(
             width: MediaQuery.of(context).size.width * 0.8,
+            child: Form(),
           ),
         );
       },

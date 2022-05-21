@@ -18,7 +18,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
   // final _editFormKey = GlobalKey<FormState>();
   Box? box;
 
-  editDialog(String memory, int memoryKey) {}
+  editDialog(String memory, int memoryKey) {
+    editMemoryController.text = memory;
+  }
 
   @override
   void initState() {

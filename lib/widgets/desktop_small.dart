@@ -188,6 +188,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                                   icon: const Icon(Icons.edit),
                                   onPressed: () => editDialog(
                                     memories.values.elementAt(index),
+                                    memories.keys.elementAt(index),
                                   ),
                                 ),
                               ),

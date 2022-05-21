@@ -88,7 +88,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                             box!.delete(memoryKey);
                             Navigator.pop(context);
                             ScaffoldMessenger.of(context).showSnackBar(
-                              SnackBar(),
+                              SnackBar(
+                                content: Text(),
+                              ),
                             );
                           },
                         ),

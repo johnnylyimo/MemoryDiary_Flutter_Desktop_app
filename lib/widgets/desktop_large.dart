@@ -90,7 +90,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                             ScaffoldMessenger.of(context).showSnackBar(
                               SnackBar(
                                 content: Text(
-                                  'The memory " ${editMemoryController.text.substring(0, editMemoryController.text.length)} " Already been Deleted!',
+                                  'The memory " ${editMemoryController.text.substring(0, editMemoryController.text.length)} " have already been deleted!',
                                   textAlign: TextAlign.center,
                                 ),
                               ),

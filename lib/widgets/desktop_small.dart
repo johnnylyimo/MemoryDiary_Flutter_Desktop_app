@@ -80,7 +80,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       ElevatedButton(
-                        child: const Text(),
+                        child: const Text('Delete'),
                       ),
                     ],
                   ),

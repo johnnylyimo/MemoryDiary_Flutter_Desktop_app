@@ -30,6 +30,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
           ),
           child: Container(
             width: MediaQuery.of(context).size.width * 0.8,
+            padding: const EdgeInsets.all(20.0),
             child: Form(
               key: _editFormKey,
               child: Column(

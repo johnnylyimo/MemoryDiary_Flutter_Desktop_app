@@ -23,7 +23,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
     showDialog(
       context: context,
       builder: (context) {
-        return Dialog();
+        return Dialog(
+          backgroundColor: Colors.purple.shade100,
+        );
       },
     );
   }

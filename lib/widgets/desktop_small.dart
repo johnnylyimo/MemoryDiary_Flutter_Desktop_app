@@ -97,7 +97,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                           ));
                         },
                       ),
-                      const SizedBox(),
+                      const SizedBox(
+                        width: 30.0,
+                      ),
                     ],
                   ),
                 ],

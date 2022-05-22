@@ -88,6 +88,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                         ),
                         onPressed: () {
                           box!.delete(memoryKey);
+                          Navigator.pop(context);
                         },
                       ),
                     ],

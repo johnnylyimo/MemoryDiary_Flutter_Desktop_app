@@ -100,6 +100,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                       const SizedBox(
                         width: 30.0,
                       ),
+                      ElevatedButton(),
                     ],
                   ),
                 ],

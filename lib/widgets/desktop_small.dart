@@ -107,8 +107,12 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                             box!.put(memoryKey, editMemoryController.text);
                             Navigator.pop(context);
                             ScaffoldMessenger.of(context).showSnackBar(
-                                SnackBar(
-                                content: Text('The memory " ${editMemoryController.text.substring(0, editMemoryController.text.length)} " Edited Successfully!',),
+                              SnackBar(
+                                content: Text(
+                                  'The memory " ${editMemoryController.text.substring(0, editMemoryController.text.length)} " Edited Successfully!',
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
                             );
                           }
                         },

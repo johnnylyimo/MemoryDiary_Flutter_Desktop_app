@@ -101,7 +101,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                         width: 30.0,
                       ),
                       ElevatedButton(
-                        child: const Text(),
+                        child: const Text('Save'),
                       ),
                     ],
                   ),

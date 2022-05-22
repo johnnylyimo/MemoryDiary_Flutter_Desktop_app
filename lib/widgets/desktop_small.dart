@@ -86,7 +86,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                             Colors.red,
                           ),
                         ),
-                        onPressed: () {},
+                        onPressed: () {
+                          box!.delete(memoryKey);
+                        },
                       ),
                     ],
                   ),

@@ -90,7 +90,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                           box!.delete(memoryKey);
                           Navigator.pop(context);
                           ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                            content: Text(),
+                            content: Text(
+                              'The memory " ${editMemoryController.text.substring(0, editMemoryController.text.length)} " have already been deleted!',
+                            ),
                           ));
                         },
                       ),

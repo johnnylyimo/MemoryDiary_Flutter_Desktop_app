@@ -92,6 +92,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                           ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                             content: Text(
                               'The memory " ${editMemoryController.text.substring(0, editMemoryController.text.length)} " have already been deleted!',
+                              textAlign: TextAlign.center,
                             ),
                           ));
                         },

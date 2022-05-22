@@ -105,6 +105,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                         onPressed: () {
                           if (_editFormKey.currentState!.validate()) {
                             box!.put(memoryKey, editMemoryController.text);
+                            Navigator.pop(context);
                           }
                         },
                       ),

@@ -108,6 +108,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                             Navigator.pop(context);
                             ScaffoldMessenger.of(context).showSnackBar(
                                 SnackBar(
+                                content: Text(),
                             );
                           }
                         },

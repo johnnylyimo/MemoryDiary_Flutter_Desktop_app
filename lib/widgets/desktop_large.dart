@@ -139,6 +139,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
     // final screenHeight = MediaQuery.of(context).size.height;
     return Scaffold(
       body: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
             width: screenWidth * 0.4,

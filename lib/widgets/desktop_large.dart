@@ -142,6 +142,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
         children: [
           Container(
             width: screenWidth * 0.4,
+            height: 420.0,
             margin: const EdgeInsets.all(20),
             padding: const EdgeInsets.all(10),
             decoration: BoxDecoration(

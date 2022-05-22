@@ -106,7 +106,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                           if (_editFormKey.currentState!.validate()) {
                             box!.put(memoryKey, editMemoryController.text);
                             Navigator.pop(context);
-                            ScaffoldMessenger.of(context).showSnackBar();
+                            ScaffoldMessenger.of(context).showSnackBar(
+                                SnackBar(
+                            );
                           }
                         },
                       ),

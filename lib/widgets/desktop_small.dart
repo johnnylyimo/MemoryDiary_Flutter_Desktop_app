@@ -89,8 +89,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                         onPressed: () {
                           box!.delete(memoryKey);
                           Navigator.pop(context);
-                          ScaffoldMessenger.of(context)
-                              .showSnackBar(SnackBar());
+                          ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                            content: Text(),
+                          ));
                         },
                       ),
                     ],

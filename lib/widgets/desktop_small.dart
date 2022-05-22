@@ -301,7 +301,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                                     memories.keys.elementAt(index),
                                   ),
                                 ),
-                                onTap: () {},
+                                onTap: () => editDialog();
                               ),
                             );
                           })

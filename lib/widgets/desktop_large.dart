@@ -316,7 +316,9 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                                 mainAxisAlignment: MainAxisAlignment.start,
                                 children: const [
                                   Text(
-                                      'No Memory\nAdd your memory on left side panel'),
+                                    'No Memory\nAdd your memory on left side panel',
+                                    style: FontStyle(),
+                                  ),
                                   Image(
                                     image: AssetImage('images/cartoon.png'),
                                   )

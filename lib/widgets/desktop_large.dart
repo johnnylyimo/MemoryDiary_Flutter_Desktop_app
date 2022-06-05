@@ -311,8 +311,12 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                                     ),
                                   );
                                 })
-                            : const Text(
-                                'No Memory\nAdd your memory on left side panel');
+                            : Column(
+                                children: [
+                                  const Text(
+                                      'No Memory\nAdd your memory on left side panel'),
+                                ],
+                              );
                       },
                     ),
                   )

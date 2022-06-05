@@ -234,7 +234,6 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                         onPressed: () {
                           if (_formKey.currentState!.validate()) {
                             box!.add(memoryController.text);
-                            debugPrint('DEBUG > ${box!.toMap()}');
                             ScaffoldMessenger.of(context).showSnackBar(
                               SnackBar(
                                 content: Text(

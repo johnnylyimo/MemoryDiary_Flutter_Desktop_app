@@ -311,15 +311,16 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                             );
                           })
                       : Column(
-                          children: const [
-                            Text(
+                          children: [
+                            const Text(
                               'No Memory\nAdd your memory above',
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
                             Image(
-                              image: AssetImage('images/cartoon.png'),
+                              width: screenWidth * 2 / 8,
+                              image: const AssetImage('images/cartoon.png'),
                             ),
                           ],
                         );

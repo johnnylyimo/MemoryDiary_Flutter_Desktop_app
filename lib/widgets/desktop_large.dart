@@ -315,6 +315,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                                 children: [
                                   const Text(
                                       'No Memory\nAdd your memory on left side panel'),
+                                  Image()
                                 ],
                               );
                       },

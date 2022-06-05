@@ -310,11 +310,15 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                               ),
                             );
                           })
-                      : const Text(
-                          'No Memory\nAdd your memory above',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                          ),
+                      : Column(
+                          children: const [
+                            Text(
+                              'No Memory\nAdd your memory above',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
                         );
                 }),
           )

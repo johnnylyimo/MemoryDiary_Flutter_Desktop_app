@@ -318,7 +318,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
-                            Image(),
+                            Image(
+                              image: AssetImage('images/cartoon.png'),
+                            ),
                           ],
                         );
                 }),

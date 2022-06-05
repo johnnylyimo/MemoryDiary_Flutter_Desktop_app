@@ -313,6 +313,7 @@ class _DesktopLargeViewState extends State<DesktopLargeView> {
                                 })
                             : Column(
                                 crossAxisAlignment: CrossAxisAlignment.center,
+                                mainAxisAlignment: MainAxisAlignment.center,
                                 children: const [
                                   Text(
                                       'No Memory\nAdd your memory on left side panel'),

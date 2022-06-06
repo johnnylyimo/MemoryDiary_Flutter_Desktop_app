@@ -321,7 +321,9 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
-                            const SizedBox(),
+                            const SizedBox(
+                              height: 10.0,
+                            ),
                             Image(
                               width: screenWidth * 2 / 3,
                               image: const AssetImage('images/cartoon.png'),

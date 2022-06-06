@@ -283,6 +283,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
             height: 20.0,
           ),
           Expanded(
+            flex: 4,
             child: ValueListenableBuilder(
                 valueListenable: box!.listenable(),
                 builder: (context, Box _box, _) {

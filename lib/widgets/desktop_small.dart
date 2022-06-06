@@ -329,6 +329,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                               child: Image(
                                 width: screenWidth * 2 / 3,
                                 height: screenHeight * 5,
+                                fit: BoxFit.contain,
                                 image: const AssetImage('images/cartoon.png'),
                               ),
                             ),

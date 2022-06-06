@@ -325,6 +325,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                               height: 10.0,
                             ),
                             Flexible(
+                              flex: 2,
                               child: Image(
                                 width: screenWidth * 2 / 3,
                                 image: const AssetImage('images/cartoon.png'),

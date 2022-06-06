@@ -324,9 +324,11 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                             const SizedBox(
                               height: 10.0,
                             ),
-                            Image(
-                              width: screenWidth * 2 / 3,
-                              image: const AssetImage('images/cartoon.png'),
+                            Flexible(
+                              child: Image(
+                                width: screenWidth * 2 / 3,
+                                image: const AssetImage('images/cartoon.png'),
+                              ),
                             ),
                           ],
                         );

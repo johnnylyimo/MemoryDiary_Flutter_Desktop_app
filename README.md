@@ -1,7 +1,7 @@
 # Memory Diary Flutter Desktop App
 
-## Download Link 
-Can't wait, Just download the link below:
+## Download Window exe file and install 
+Can't wait, Just download exe file from the link below:
 
 https://drive.google.com/drive/folders/12nBau_hYLcwELn_KE9AnTS-LFjWFzsnG?usp=sharing
 

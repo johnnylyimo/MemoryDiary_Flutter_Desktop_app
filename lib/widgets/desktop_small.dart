@@ -312,6 +312,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                             );
                           })
                       : Column(
+                          mainAxisAlignment: MainAxisAlignment.start,
                           children: [
                             const Text(
                               'No Memory\nAdd your memory above',
@@ -320,7 +321,7 @@ class _DesktopSmallViewState extends State<DesktopSmallView> {
                               ),
                             ),
                             Image(
-                              width: screenWidth * 2 / 8,
+                              width: screenWidth * 2 / 3,
                               image: const AssetImage('images/cartoon.png'),
                             ),
                           ],

@@ -109,6 +109,7 @@ class _HomeState extends State<Home> {
                                             fontSize: 14.0,
                                           ),
                                         ),
+                                        TextSpan()
                                       ],
                                     ),
                                   ),

@@ -22,6 +22,7 @@ class _HomeState extends State<Home> {
             offset: const Offset(0, 60),
             icon: const Icon(
               Icons.question_mark,
+              color: Colors.white,
             ),
             itemBuilder: (context) => [],
           )

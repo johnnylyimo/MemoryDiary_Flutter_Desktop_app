@@ -85,6 +85,7 @@ class _HomeState extends State<Home> {
                               ),
                               child: Scrollbar(
                                 thumbVisibility: true,
+                                thickness: 10.0,
                               ),
                             ),
                           ],

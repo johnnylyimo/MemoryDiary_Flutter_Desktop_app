@@ -90,6 +90,7 @@ class _HomeState extends State<Home> {
                                   scrollDirection: Axis.vertical,
                                   padding:
                                       EdgeInsets.symmetric(horizontal: 10.0),
+                                  child: RichText(),
                                 ),
                               ),
                             ),

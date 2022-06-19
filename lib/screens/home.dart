@@ -105,6 +105,7 @@ class _HomeState extends State<Home> {
                                               "MemoryDiary is the Desktop app developed by Flutter Framework. It is good work done by senior developer John L. Lyimo from MolysTechie.\n\n",
                                           style: TextStyle(
                                             fontWeight: FontWeight.normal,
+                                            color: Colors.black,
                                           ),
                                         ),
                                       ],

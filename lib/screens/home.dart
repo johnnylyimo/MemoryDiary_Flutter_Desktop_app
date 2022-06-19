@@ -38,7 +38,10 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ],
-            onSelected: (value) {},
+            onSelected: (value) {
+              switch (value) {
+              }
+            },
           )
         ],
       ),

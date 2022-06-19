@@ -48,7 +48,9 @@ class _HomeState extends State<Home> {
                     Icons.info,
                     color: Colors.black,
                   ),
-                  label: const Text(),
+                  label: const Text(
+                    'About MemoryDiary',
+                  ),
                 ),
               ),
             ],

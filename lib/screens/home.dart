@@ -62,7 +62,9 @@ class _HomeState extends State<Home> {
                   showDialog(
                     context: context,
                     builder: (context) => Dialog(
-                      shape: RoundedRectangleBorder(),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(30),
+                      ),
                     ),
                   );
               }

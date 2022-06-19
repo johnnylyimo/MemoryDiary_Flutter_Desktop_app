@@ -29,7 +29,9 @@ class _HomeState extends State<Home> {
                 value: 1,
                 child: TextButton.icon(
                   onPressed: null,
-                  icon: const Icon(),
+                  icon: const Icon(
+                    Icons.help,
+                  ),
                 ),
               ),
             ],

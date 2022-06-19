@@ -32,7 +32,9 @@ class _HomeState extends State<Home> {
                   icon: const Icon(
                     Icons.help,
                   ),
-                  label: Const Text(),
+                  label: const Text(
+                    'Help',
+                  ),
                 ),
               ),
             ],

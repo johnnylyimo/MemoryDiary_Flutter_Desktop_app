@@ -110,13 +110,16 @@ class _HomeState extends State<Home> {
                                           ),
                                         ),
                                         TextSpan(
-                                          text: "How to use MemoryDiary App\n",
-                                          style: TextStyle(
-                                            fontWeight: FontWeight.bold,
-                                            color: Colors.black,
-                                            fontSize: 18.0,
-                                          ),
-                                        )
+                                            text:
+                                                "How to use MemoryDiary App\n",
+                                            style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                              color: Colors.black,
+                                              fontSize: 18.0,
+                                            ),
+                                            children: [
+                                              TextSpan(),
+                                            ])
                                       ],
                                     ),
                                   ),

@@ -36,6 +36,7 @@ class _HomeState extends State<Home> {
                   ),
                   label: const Text(
                     'Help',
+                    style: TextStyle(),
                   ),
                 ),
               ),

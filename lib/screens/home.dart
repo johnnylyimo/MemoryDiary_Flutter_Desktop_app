@@ -92,7 +92,9 @@ class _HomeState extends State<Home> {
                                       EdgeInsets.symmetric(horizontal: 10.0),
                                   child: RichText(
                                     textAlign: TextAlign.center,
-                                    text: const TextSpan(),
+                                    text: const TextSpan(
+                                      text: 'Welcome to MemoryDiary Help\n',
+                                    ),
                                   ),
                                 ),
                               ),

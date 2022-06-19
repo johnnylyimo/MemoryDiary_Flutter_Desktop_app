@@ -113,6 +113,7 @@ class _HomeState extends State<Home> {
                                           text: "How to use MemoryDiary App\n",
                                           style: TextStyle(
                                             fontWeight: FontWeight.bold,
+                                            color: Colors.black,
                                           ),
                                         )
                                       ],

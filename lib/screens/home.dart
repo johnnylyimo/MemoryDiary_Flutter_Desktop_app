@@ -40,7 +40,9 @@ class _HomeState extends State<Home> {
                   ),
                 ),
               ),
-              PopupMenuItem(),
+              PopupMenuItem(
+                value: 2,
+              ),
             ],
             onSelected: (value) {
               switch (value) {

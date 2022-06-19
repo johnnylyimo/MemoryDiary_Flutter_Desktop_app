@@ -165,6 +165,7 @@ class _HomeState extends State<Home> {
                               child: const Text('Close'),
                               style: ElevatedButton.styleFrom(
                                 padding: const EdgeInsets.all(20),
+                                primary: Colors.purple.shade500,
                               ),
                               onPressed: () => Navigator.pop(context),
                             ),

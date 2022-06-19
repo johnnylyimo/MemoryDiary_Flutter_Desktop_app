@@ -182,7 +182,9 @@ class _HomeState extends State<Home> {
                 case 2:
                   showDialog(
                     context: context,
-                    builder: (context) => Dialog();
+                    builder: (context) => Dialog(
+                      shape: RoundedRectangleBorder()
+                    );
                   );
                   break;
               }

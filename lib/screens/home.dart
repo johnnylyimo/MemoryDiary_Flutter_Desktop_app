@@ -40,6 +40,7 @@ class _HomeState extends State<Home> {
                   ),
                 ),
               ),
+              const PopupMenuDivider(),
               PopupMenuItem(
                 value: 2,
                 child: TextButton.icon(

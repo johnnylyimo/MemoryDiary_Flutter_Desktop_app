@@ -65,7 +65,9 @@ class _HomeState extends State<Home> {
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(30),
                       ),
-                      child: Container(),
+                      child: Container(
+                        height: 400.0,
+                      ),
                     ),
                   );
               }

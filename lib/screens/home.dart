@@ -46,6 +46,7 @@ class _HomeState extends State<Home> {
                   onPressed: null,
                   icon: const Icon(
                     Icons.info,
+                    color: Colors.black,
                   ),
                 ),
               ),

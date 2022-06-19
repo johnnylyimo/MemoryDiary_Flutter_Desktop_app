@@ -94,7 +94,9 @@ class _HomeState extends State<Home> {
                                     textAlign: TextAlign.center,
                                     text: const TextSpan(
                                       text: 'Welcome to MemoryDiary Help\n',
-                                      style: TextStyle(),
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                      ),
                                     ),
                                   ),
                                 ),

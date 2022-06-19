@@ -163,6 +163,7 @@ class _HomeState extends State<Home> {
                             ),
                             ElevatedButton(
                               child: const Text('Close'),
+                              style: ElevatedButton.styleFrom(),
                               onPressed: () => Navigator.pop(context),
                             ),
                           ],

@@ -97,6 +97,7 @@ class _HomeState extends State<Home> {
                                       style: TextStyle(
                                         fontWeight: FontWeight.bold,
                                         color: Colors.black,
+                                        fontSize: 18.0,
                                       ),
                                     ),
                                   ),

@@ -83,7 +83,7 @@ class _HomeState extends State<Home> {
                                 border: Border.all(color: Colors.grey),
                                 borderRadius: BorderRadius.circular(20),
                               ),
-                              child: const Scrollbar(
+                              child: Scrollbar(
                                 thumbVisibility: true,
                                 thickness: 10.0,
                                 child: SingleChildScrollView(
@@ -92,6 +92,7 @@ class _HomeState extends State<Home> {
                                       EdgeInsets.symmetric(horizontal: 10.0),
                                   child: RichText(
                                     textAlign: TextAlign.center,
+                                    text: const TextSpan(),
                                   ),
                                 ),
                               ),

@@ -139,7 +139,9 @@ class _HomeState extends State<Home> {
                                               TextSpan(
                                                 text:
                                                     'This new version of MemoryDiary brings many new and exciting features. It greatly enhances the core values which made MemoryDiary so popular. Features like Less complexity, that is easy to use and got beautiful user interface(GUI).',
-                                                style: TextStyle(),
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.normal,
+                                                ),
                                               ),
                                             ])
                                       ],

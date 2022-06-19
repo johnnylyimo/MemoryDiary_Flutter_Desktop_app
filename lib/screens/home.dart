@@ -74,7 +74,11 @@ class _HomeState extends State<Home> {
                           borderRadius: BorderRadius.circular(30),
                         ),
                         child: Column(
-                          children: [Container()],
+                          children: [
+                            Container(
+                              width: MediaQuery.of(context).size.width * 0.3,
+                            ),
+                          ],
                         ),
                       ),
                     ),

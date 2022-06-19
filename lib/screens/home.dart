@@ -152,7 +152,7 @@ class _HomeState extends State<Home> {
                                 ),
                               ),
                             ),
-                            const SizedBox(),
+                            const SizedBox(height: 10.0),
                             const Text(
                               'Thanks for Choosing and Installing MemoryDiary a Flutter powered App',
                               textAlign: TextAlign.center,

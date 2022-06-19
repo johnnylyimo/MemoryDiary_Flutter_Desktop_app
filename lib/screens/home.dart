@@ -25,7 +25,9 @@ class _HomeState extends State<Home> {
               color: Colors.white,
             ),
             itemBuilder: (context) => [
-              PopupMenuItem(),
+              PopupMenuItem(
+                value: 1,
+              ),
             ],
           )
         ],

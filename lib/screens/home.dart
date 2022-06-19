@@ -66,7 +66,7 @@ class _HomeState extends State<Home> {
                         borderRadius: BorderRadius.circular(30),
                       ),
                       child: Container(
-                        height: 400.0,
+                        height: MediaQuery.of(context).size.height * 0.6,
                         width: MediaQuery.of(context).size.width * 0.4,
                         padding: const EdgeInsets.all(20.0),
                         decoration: BoxDecoration(

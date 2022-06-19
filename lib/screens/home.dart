@@ -31,6 +31,7 @@ class _HomeState extends State<Home> {
                   onPressed: null,
                   icon: const Icon(
                     Icons.help,
+                    color: Colors.black,
                   ),
                   label: const Text(
                     'Help',

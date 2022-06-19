@@ -71,6 +71,7 @@ class _HomeState extends State<Home> {
                         padding: const EdgeInsets.all(20.0),
                         decoration: BoxDecoration(
                           color: Colors.purple.shade100,
+                          borderRadius: BorderRadius.circular(30),
                         ),
                       ),
                     ),

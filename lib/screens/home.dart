@@ -179,6 +179,8 @@ class _HomeState extends State<Home> {
                     ),
                   );
                   break;
+                case 2:
+                  showDialog()
               }
             },
           )

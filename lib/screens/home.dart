@@ -186,7 +186,9 @@ class _HomeState extends State<Home> {
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(30),
                       ),
-                      child: Container(),
+                      child: Container(
+                        height: MediaQuery.of(context).size.height * 0.7,
+                      ),
                     ),
                   );
                   break;

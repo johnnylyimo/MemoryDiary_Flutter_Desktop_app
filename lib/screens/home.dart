@@ -167,7 +167,7 @@ class _HomeState extends State<Home> {
                                 padding: const EdgeInsets.all(20),
                                 primary: Colors.purple.shade500,
                                 shape: const StadiumBorder(),
-                                textStyle: const TextStyle(),
+                                textStyle: const TextStyle(fontSize: 18.0),
                               ),
                               onPressed: () => Navigator.pop(context),
                             ),

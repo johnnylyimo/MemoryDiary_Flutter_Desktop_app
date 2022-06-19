@@ -155,6 +155,7 @@ class _HomeState extends State<Home> {
                             const Text(
                               'Thanks for Choosing and Installing MemoryDiary a Flutter powered App',
                               textAlign: TextAlign.center,
+                              style: TextStyle(),
                             ),
                           ],
                         ),

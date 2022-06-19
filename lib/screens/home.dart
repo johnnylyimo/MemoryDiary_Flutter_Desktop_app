@@ -96,6 +96,7 @@ class _HomeState extends State<Home> {
                                       text: 'Welcome to MemoryDiary Help\n',
                                       style: TextStyle(
                                         fontWeight: FontWeight.bold,
+                                        color: Colors.black,
                                       ),
                                     ),
                                   ),

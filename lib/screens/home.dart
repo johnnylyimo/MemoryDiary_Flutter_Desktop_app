@@ -59,7 +59,9 @@ class _HomeState extends State<Home> {
             onSelected: (value) {
               switch (value) {
                 case 1:
-                  showDialog()
+                  showDialog(
+                    context: context,
+                  )
               }
             },
           )

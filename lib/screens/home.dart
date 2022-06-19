@@ -130,7 +130,9 @@ class _HomeState extends State<Home> {
                                             ]),
                                         TextSpan(
                                           text: 'Features\n',
-                                          style: TextStyle(),
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                          ),
                                         )
                                       ],
                                     ),

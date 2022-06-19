@@ -24,6 +24,7 @@ class _HomeState extends State<Home> {
               Icons.question_mark,
               color: Colors.white,
             ),
+            color: Colors.purple.shade100,
             itemBuilder: (context) => [
               PopupMenuItem(
                 value: 1,

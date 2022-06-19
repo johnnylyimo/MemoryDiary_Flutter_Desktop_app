@@ -42,7 +42,9 @@ class _HomeState extends State<Home> {
               ),
               PopupMenuItem(
                 value: 2,
-                child: TextButton.icon(),
+                child: TextButton.icon(
+                  onPressed: null,
+                ),
               ),
             ],
             onSelected: (value) {

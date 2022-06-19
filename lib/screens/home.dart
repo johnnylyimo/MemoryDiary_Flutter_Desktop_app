@@ -50,6 +50,7 @@ class _HomeState extends State<Home> {
                   ),
                   label: const Text(
                     'About MemoryDiary',
+                    style: TextStyle(),
                   ),
                 ),
               ),

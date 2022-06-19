@@ -76,7 +76,7 @@ class _HomeState extends State<Home> {
                         child: Column(
                           children: [
                             Container(
-                              width: MediaQuery.of(context).size.width * 0.3,
+                              width: MediaQuery.of(context).size.width * 0.35,
                               padding: const EdgeInsets.all(10.0),
                               decoration: BoxDecoration(
                                 border: Border.all(color: Colors.grey),

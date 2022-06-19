@@ -132,6 +132,7 @@ class _HomeState extends State<Home> {
                                           text: 'Features\n',
                                           style: TextStyle(
                                             fontWeight: FontWeight.bold,
+                                            color: Colors.black,
                                           ),
                                         )
                                       ],

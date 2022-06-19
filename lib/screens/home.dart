@@ -129,13 +129,13 @@ class _HomeState extends State<Home> {
                                               ),
                                             ]),
                                         TextSpan(
-                                          text: 'Features\n',
-                                          style: TextStyle(
-                                            fontWeight: FontWeight.bold,
-                                            color: Colors.black,
-                                            fontSize: 18.0,
-                                          ),
-                                        )
+                                            text: 'Features\n',
+                                            style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                              color: Colors.black,
+                                              fontSize: 18.0,
+                                            ),
+                                            children: [TextSpan()])
                                       ],
                                     ),
                                   ),

@@ -40,9 +40,7 @@ class _HomeState extends State<Home> {
                   ),
                 ),
               ),
-              const PopupMenuDivider(
-                height: 10,
-              ),
+              const PopupMenuDivider(height: 10),
               PopupMenuItem(
                 value: 2,
                 child: TextButton.icon(
@@ -60,6 +58,8 @@ class _HomeState extends State<Home> {
             ],
             onSelected: (value) {
               switch (value) {
+                case 1:
+                  showDialog()
               }
             },
           )

@@ -17,7 +17,11 @@ class _HomeState extends State<Home> {
         backgroundColor: const Color(0xffECA3F5),
         centerTitle: true,
         title: const Text('Memory Diary'),
-        actions: [PopupMenuButton<int>()],
+        actions: [
+          PopupMenuButton<int>(
+            offset: const Offset(0, 60),
+          )
+        ],
       ),
       body: LayoutBuilder(
         builder: (context, constraints) {

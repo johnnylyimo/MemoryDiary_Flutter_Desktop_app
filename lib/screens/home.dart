@@ -212,7 +212,9 @@ class _HomeState extends State<Home> {
                                 Text('MemoryDiary v1.1'),
                               ],
                             ),
-                            const SizedBox(),
+                            const SizedBox(
+                              height: 20.0,
+                            ),
                           ],
                         ),
                       ),

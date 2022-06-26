@@ -234,11 +234,9 @@ class _HomeState extends State<Home> {
                             const SizedBox(
                               height: 20.0,
                             ),
-                            const SizedBox(
-                              height: 20.0,
-                            ),
                             Container(
                               width: MediaQuery.of(context).size.width * 0.3,
+                              height: 120.0,
                             )
                           ],
                         ),

@@ -253,13 +253,19 @@ class _HomeState extends State<Home> {
                                   child: RichText(
                                     textAlign: TextAlign.center,
                                     text: const TextSpan(
-                                        text: 'MolysTechie\n',
-                                        style: TextStyle(
-                                          fontWeight: FontWeight.bold,
-                                          color: Colors.black,
-                                          fontSize: 18.0,
+                                      text: 'MolysTechie\n',
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.black,
+                                        fontSize: 18.0,
+                                      ),
+                                      children: [
+                                        TextSpan(
+                                          text:
+                                              "MolysTechie is tech Startup, specialized on developing Mobile Apps, Web Apps, Desktop Apps and Wep APIs. It's senior Developer is John L. Lyimo, the guy who developed this Desktop app that is powered by Flutter.\n\n",
                                         ),
-                                        children: [TextSpan()]),
+                                      ],
+                                    ),
                                   ),
                                 ),
                               ),

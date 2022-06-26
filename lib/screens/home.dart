@@ -222,6 +222,7 @@ class _HomeState extends State<Home> {
                               onPressed: _launchUrl,
                               icon: const Icon(
                                 Icons.link,
+                                color: Colors.black,
                               ),
                             ),
                           ],

@@ -269,7 +269,9 @@ class _HomeState extends State<Home> {
                                             fontSize: 14.0,
                                           ),
                                         ),
-                                        TextSpan(),
+                                        TextSpan(
+                                          text: "GNU General Public Licence\n",
+                                        ),
                                       ],
                                     ),
                                   ),

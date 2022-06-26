@@ -276,6 +276,9 @@ class _HomeState extends State<Home> {
                                             color: Colors.black,
                                             fontSize: 18.0,
                                           ),
+                                          children: [
+                                            TextSpan(),
+                                          ],
                                         ),
                                       ],
                                     ),

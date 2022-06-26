@@ -252,7 +252,9 @@ class _HomeState extends State<Home> {
                                       horizontal: 10.0),
                                   child: RichText(
                                       textAlign: TextAlign.center,
-                                      text: TextSpan()),
+                                      text: const TextSpan(
+                                        text: 'MolysTechie\n',
+                                      )),
                                 ),
                               ),
                             )

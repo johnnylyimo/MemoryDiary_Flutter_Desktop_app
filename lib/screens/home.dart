@@ -9,7 +9,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  final Uri _url = Uri.parse('https://molys-techie.vercel.app/');
+  // final Uri _url = Uri.parse('https://molys-techie.vercel.app/');
 
   void _launchUrl() async {}
 
@@ -231,7 +231,9 @@ class _HomeState extends State<Home> {
                                 ),
                               ),
                             ),
-                            const SizedBox(),
+                            const SizedBox(
+                              height: 20.0,
+                            ),
                           ],
                         ),
                       ),

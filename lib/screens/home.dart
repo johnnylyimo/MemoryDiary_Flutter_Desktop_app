@@ -243,11 +243,13 @@ class _HomeState extends State<Home> {
                                 border: Border.all(color: Colors.grey),
                                 borderRadius: BorderRadius.circular(20),
                               ),
-                              child: Scrollbar(
+                              child: const Scrollbar(
                                 thumbVisibility: true,
                                 thickness: 10.0,
                                 child: SingleChildScrollView(
                                   scrollDirection: Axis.vertical,
+                                  padding:
+                                      EdgeInsets.symmetric(horizontal: 10.0),
                                 ),
                               ),
                             )

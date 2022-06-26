@@ -251,10 +251,11 @@ class _HomeState extends State<Home> {
                                   padding: const EdgeInsets.symmetric(
                                       horizontal: 10.0),
                                   child: RichText(
-                                      textAlign: TextAlign.center,
-                                      text: const TextSpan(
+                                    textAlign: TextAlign.center,
+                                    text: const TextSpan(
                                         text: 'MolysTechie\n',
-                                      )),
+                                        style: TextStyle()),
+                                  ),
                                 ),
                               ),
                             )

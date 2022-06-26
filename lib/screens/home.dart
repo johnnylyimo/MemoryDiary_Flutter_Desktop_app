@@ -300,6 +300,7 @@ class _HomeState extends State<Home> {
                               style: ElevatedButton.styleFrom(
                                 padding: const EdgeInsets.all(20),
                                 primary: Colors.purple.shade500,
+                                shape: const StadiumBorder(),
                               ),
                               onPressed: () => Navigator.pop(context),
                             ),

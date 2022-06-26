@@ -237,6 +237,8 @@ class _HomeState extends State<Home> {
                             Container(
                               width: MediaQuery.of(context).size.width * 0.3,
                               height: 120.0,
+                              padding: const EdgeInsets.symmetric(
+                                  vertical: 10.0, horizontal: 20.0),
                             )
                           ],
                         ),

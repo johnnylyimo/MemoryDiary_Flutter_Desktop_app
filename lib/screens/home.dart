@@ -10,6 +10,7 @@ class Home extends StatefulWidget {
 
 // color: Color(0xffF4BEEE),
 class _HomeState extends State<Home> {
+  final Uri _url = Uri.parse();
   @override
   Widget build(BuildContext context) {
     return Scaffold(

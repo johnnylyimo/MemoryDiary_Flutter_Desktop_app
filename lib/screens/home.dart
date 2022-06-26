@@ -196,6 +196,7 @@ class _HomeState extends State<Home> {
                         ),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.center,
+                          mainAxisAlignment: MainAxisAlignment.start,
                         ),
                       ),
                     ),

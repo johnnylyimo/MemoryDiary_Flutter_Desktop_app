@@ -204,6 +204,7 @@ class _HomeState extends State<Home> {
                                 Image(
                                   image: AssetImage('images/cartoon.png'),
                                   width: 120.0,
+                                  height: 120.0,
                                 )
                               ],
                             ),

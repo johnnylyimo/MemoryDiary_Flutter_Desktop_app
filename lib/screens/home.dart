@@ -194,7 +194,9 @@ class _HomeState extends State<Home> {
                           color: Colors.purple.shade100,
                           borderRadius: BorderRadius.circular(30),
                         ),
-                        child: Column(),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                        ),
                       ),
                     ),
                   );

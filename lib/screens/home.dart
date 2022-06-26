@@ -253,13 +253,13 @@ class _HomeState extends State<Home> {
                                   child: RichText(
                                     textAlign: TextAlign.center,
                                     text: const TextSpan(
-                                      text: 'MolysTechie\n',
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        color: Colors.black,
-                                        fontSize: 18.0,
-                                      ),
-                                    ),
+                                        text: 'MolysTechie\n',
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.black,
+                                          fontSize: 18.0,
+                                        ),
+                                        children: [TextSpan()]),
                                   ),
                                 ),
                               ),

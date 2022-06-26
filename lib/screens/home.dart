@@ -277,7 +277,10 @@ class _HomeState extends State<Home> {
                                             fontSize: 18.0,
                                           ),
                                           children: [
-                                            TextSpan(),
+                                            TextSpan(
+                                              text:
+                                                  "This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation on.",
+                                            ),
                                           ],
                                         ),
                                       ],

@@ -296,7 +296,8 @@ class _HomeState extends State<Home> {
                             ),
                             const Expanded(child: SizedBox()),
                             ElevatedButton(
-                              child: Text('Close'),
+                              child: const Text('Close'),
+                              onPressed: () => Navigator.pop(context),
                             ),
                           ],
                         ),

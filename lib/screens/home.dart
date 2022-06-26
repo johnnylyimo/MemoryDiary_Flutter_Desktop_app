@@ -294,7 +294,7 @@ class _HomeState extends State<Home> {
                                 ),
                               ),
                             ),
-                            const Expanded(),
+                            const Expanded(child: SizedBox()),
                           ],
                         ),
                       ),

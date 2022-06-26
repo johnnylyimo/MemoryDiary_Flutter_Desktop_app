@@ -241,6 +241,7 @@ class _HomeState extends State<Home> {
                                   vertical: 10.0, horizontal: 20.0),
                               decoration: BoxDecoration(
                                 border: Border.all(color: Colors.grey),
+                                borderRadius: BorderRadius.circular(20),
                               ),
                             )
                           ],

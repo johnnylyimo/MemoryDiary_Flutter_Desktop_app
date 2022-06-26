@@ -265,6 +265,7 @@ class _HomeState extends State<Home> {
                                               "MolysTechie is tech Startup, specialized on developing Mobile Apps, Web Apps, Desktop Apps and Wep APIs. It's senior Developer is John L. Lyimo, the guy who developed this Desktop app that is powered by Flutter.\n\n",
                                           style: TextStyle(
                                             fontWeight: FontWeight.normal,
+                                            color: Colors.black,
                                           ),
                                         ),
                                       ],

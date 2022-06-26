@@ -226,6 +226,7 @@ class _HomeState extends State<Home> {
                               ),
                               label: const Text(
                                 'Visit: https://molys-techie.vercel.app/',
+                                style: TextStyle(),
                               ),
                             ),
                           ],

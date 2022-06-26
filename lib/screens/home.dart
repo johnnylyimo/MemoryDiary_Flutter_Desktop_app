@@ -220,6 +220,7 @@ class _HomeState extends State<Home> {
                             ),
                             TextButton.icon(
                               onPressed: _launchUrl,
+                              icon: const Icon(),
                             ),
                           ],
                         ),

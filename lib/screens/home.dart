@@ -203,6 +203,7 @@ class _HomeState extends State<Home> {
                               children: const [
                                 Image(
                                   image: AssetImage('images/cartoon.png'),
+                                  width: 120.0,
                                 )
                               ],
                             ),

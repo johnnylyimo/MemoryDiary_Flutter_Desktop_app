@@ -200,8 +200,10 @@ class _HomeState extends State<Home> {
                           children: [
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
-                              children: const[
-                                Image()
+                              children: const [
+                                Image(
+                                  image: AssetImage('images/cartoon.png'),
+                                )
                               ],
                             ),
                           ],

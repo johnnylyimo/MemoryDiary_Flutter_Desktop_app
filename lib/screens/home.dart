@@ -200,6 +200,9 @@ class _HomeState extends State<Home> {
                           children: [
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
+                              children: const[
+                                Image()
+                              ],
                             ),
                           ],
                         ),

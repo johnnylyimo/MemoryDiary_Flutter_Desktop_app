@@ -273,6 +273,7 @@ class _HomeState extends State<Home> {
                                           text: "GNU General Public Licence\n",
                                           style: TextStyle(
                                             fontWeight: FontWeight.bold,
+                                            color: Colors.black,
                                           ),
                                         ),
                                       ],

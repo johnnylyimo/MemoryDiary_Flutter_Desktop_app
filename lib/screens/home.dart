@@ -256,6 +256,7 @@ class _HomeState extends State<Home> {
                                       text: 'MolysTechie\n',
                                       style: TextStyle(
                                         fontWeight: FontWeight.bold,
+                                        color: Colors.black,
                                       ),
                                     ),
                                   ),

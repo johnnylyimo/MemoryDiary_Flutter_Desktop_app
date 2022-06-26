@@ -271,6 +271,7 @@ class _HomeState extends State<Home> {
                                         ),
                                         TextSpan(
                                           text: "GNU General Public Licence\n",
+                                          style: TextStyle(),
                                         ),
                                       ],
                                     ),

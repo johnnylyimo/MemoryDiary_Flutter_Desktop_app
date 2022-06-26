@@ -224,7 +224,9 @@ class _HomeState extends State<Home> {
                                 Icons.link,
                                 color: Colors.black,
                               ),
-                              label: const Text(),
+                              label: const Text(
+                                'Visit: https://molys-techie.vercel.app/',
+                              ),
                             ),
                           ],
                         ),

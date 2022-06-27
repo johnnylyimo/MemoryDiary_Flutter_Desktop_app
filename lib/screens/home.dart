@@ -92,7 +92,7 @@ class _HomeState extends State<Home> {
                                 child: SingleChildScrollView(
                                   scrollDirection: Axis.vertical,
                                   padding:
-                                      EdgeInsets.symmetric(horizontal: 10.0),
+                                      EdgeInsets.symmetric(horizontal: 20.0),
                                   child: RichText(
                                     textAlign: TextAlign.center,
                                     text: const TextSpan(

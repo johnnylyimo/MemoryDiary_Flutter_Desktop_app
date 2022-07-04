@@ -84,7 +84,9 @@ class _HomeState extends State<Home> {
                         child: Column(
                           children: [
                             Container(
-                              width: MediaQuery.of(context).size.width * 0.35,
+                              width: screenWidth <= smallDesktopWidth
+                                  ? MediaQuery.of(context).size.width * 0.6
+                                  : MediaQuery.of(context).size.width * 0.35,
                               height: MediaQuery.of(context).size.height * 0.4,
                               padding: const EdgeInsets.symmetric(
                                   vertical: 10.0, horizontal: 5.0),

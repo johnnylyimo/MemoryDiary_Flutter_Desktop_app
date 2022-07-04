@@ -17,6 +17,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
+    final screenHeight = MediaQuery.of(context).size.height;
     return Scaffold(
       appBar: AppBar(
         backgroundColor: const Color(0xffECA3F5),

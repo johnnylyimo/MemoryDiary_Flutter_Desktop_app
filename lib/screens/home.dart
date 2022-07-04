@@ -245,7 +245,9 @@ class _HomeState extends State<Home> {
                               height: 20.0,
                             ),
                             Container(
-                              width: MediaQuery.of(context).size.width * 0.3,
+                              width: screenWidth <= smallDesktopWidth
+                                  ? MediaQuery.of(context).size.width * 0.7
+                                  : MediaQuery.of(context).size.width * 0.3,
                               height: 120.0,
                               padding: const EdgeInsets.symmetric(
                                   vertical: 10.0, horizontal: 5.0),

@@ -9,7 +9,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  int isSmallDesktopWidth = 838;
+  int smallDesktopWidth = 838;
   // final Uri _url = Uri.parse('https://molys-techie.vercel.app/');
 
   void _launchUrl() async {}
@@ -73,7 +73,9 @@ class _HomeState extends State<Home> {
                       ),
                       child: Container(
                         height: MediaQuery.of(context).size.height * 0.6,
-                        width: MediaQuery.of(context).size.width * 0.4,
+                        width: screenWidth <= smallDesktopWidth
+                            ? MediaQuery.of(context).size.width * 0.8
+                            : MediaQuery.of(context).size.width * 0.4,
                         padding: const EdgeInsets.all(20.0),
                         decoration: BoxDecoration(
                           color: Colors.purple.shade100,

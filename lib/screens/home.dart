@@ -199,7 +199,9 @@ class _HomeState extends State<Home> {
                       ),
                       child: Container(
                         height: MediaQuery.of(context).size.height * 0.7,
-                        width: MediaQuery.of(context).size.width * 0.4,
+                        width: screenWidth <= smallDesktopWidth
+                            ? MediaQuery.of(context).size.width * 0.8
+                            : MediaQuery.of(context).size.width * 0.4,
                         padding: const EdgeInsets.all(20.0),
                         decoration: BoxDecoration(
                           color: Colors.purple.shade100,

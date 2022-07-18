@@ -333,6 +333,7 @@ class _HomeState extends State<Home> {
                               width: screenWidth <= smallDesktopWidth
                                   ? MediaQuery.of(context).size.width * 0.7
                                   : MediaQuery.of(context).size.width * 0.9,
+                              height: 140.0,
                             ),
                             ElevatedButton(
                               child: const Text('Close'),

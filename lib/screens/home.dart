@@ -356,6 +356,7 @@ class _HomeState extends State<Home> {
                                         text: 'Developer: Johnny Lyimo\n',
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
+                                          color: Colors.black,
                                         ),
                                       ),
                                     ),

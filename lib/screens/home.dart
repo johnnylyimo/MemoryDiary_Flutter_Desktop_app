@@ -12,7 +12,9 @@ class _HomeState extends State<Home> {
   int smallDesktopWidth = 838;
 
   Future<void>? _launched;
-  Future<void> _launchInBrowser(String url) async {}
+  Future<void> _launchInBrowser(String url) async {
+    if (await UrlLauncherPlatform.instance.canLaunch(url)) {}
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -229,7 +231,7 @@ class _HomeState extends State<Home> {
                               height: 20.0,
                             ),
                             TextButton.icon(
-                              onPressed: _launchUrl,
+                              onPressed: () {},
                               icon: const Icon(
                                 Icons.link,
                                 color: Colors.black,

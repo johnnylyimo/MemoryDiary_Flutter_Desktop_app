@@ -375,6 +375,7 @@ class _HomeState extends State<Home> {
                                 ],
                               ),
                             ),
+                            const SizedBox(),
                             ElevatedButton(
                               child: const Text('Close'),
                               style: ElevatedButton.styleFrom(

@@ -351,8 +351,10 @@ class _HomeState extends State<Home> {
                                   const SizedBox(width: 2.0),
                                   Flexible(
                                     child: RichText(
-                                      textAlign:TextAlign.start, ,
-                                        text: const TextSpan(),
+                                      textAlign: TextAlign.start,
+                                      text: const TextSpan(
+                                        text: 'Developer: Johnny Lyimo\n',
+                                      ),
                                     ),
                                   ),
                                 ],

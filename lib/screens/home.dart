@@ -10,9 +10,8 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int smallDesktopWidth = 838;
-  // final Uri _url = Uri.parse('https://molys-techie.vercel.app/');
 
-  void _launchUrl() async {}
+  Future<void>? _launched;
 
   @override
   Widget build(BuildContext context) {

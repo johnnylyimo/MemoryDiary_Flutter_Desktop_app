@@ -33,6 +33,8 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
     final screenHeight = MediaQuery.of(context).size.height;
+    const String toLaunch = 'https://github.com/johnnylyimo';
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: const Color(0xffECA3F5),

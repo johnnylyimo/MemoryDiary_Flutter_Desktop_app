@@ -354,7 +354,9 @@ class _HomeState extends State<Home> {
                                       textAlign: TextAlign.start,
                                       text: const TextSpan(
                                         text: 'Developer: Johnny Lyimo\n',
-                                        style: TextStyle(),
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                        ),
                                       ),
                                     ),
                                   ),

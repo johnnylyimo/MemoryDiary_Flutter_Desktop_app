@@ -342,7 +342,9 @@ class _HomeState extends State<Home> {
                               ),
                               child: Row(
                                 children: [
-                                  const CircleAvatar(),
+                                  const CircleAvatar(
+                                    radius: 64.0,
+                                  ),
                                 ],
                               ),
                             ),

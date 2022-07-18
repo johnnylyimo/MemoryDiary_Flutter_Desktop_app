@@ -365,6 +365,7 @@ class _HomeState extends State<Home> {
                                                   "I am a software developer with over 5 years of experience, and a strong desire to build and help others to build clean, well-tested, SOLID softwares.\nI am the one who develop this app",
                                               style: TextStyle(
                                                 fontWeight: FontWeight.normal,
+                                                color: Colors.black,
                                               ),
                                             ),
                                           ]),

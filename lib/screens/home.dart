@@ -247,7 +247,9 @@ class _HomeState extends State<Home> {
                               height: 20.0,
                             ),
                             TextButton.icon(
-                              onPressed: () {},
+                              onPressed: () => setState(() {
+                                _launched = _launchInBrowser(toLaunch2);
+                              }),
                               icon: const Icon(
                                 Icons.link,
                                 color: Colors.black,

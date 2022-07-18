@@ -350,7 +350,9 @@ class _HomeState extends State<Home> {
                                   ),
                                   const SizedBox(width: 2.0),
                                   Flexible(
-                                    child: RichText(),
+                                    child: RichText(
+                                      textAlign:TextAlign.start, ,
+                                    ),
                                   ),
                                 ],
                               ),

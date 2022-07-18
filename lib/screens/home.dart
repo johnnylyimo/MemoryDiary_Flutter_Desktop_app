@@ -12,6 +12,7 @@ class _HomeState extends State<Home> {
   int smallDesktopWidth = 838;
 
   Future<void>? _launched;
+  Future<void> _launchInBrowser(String url) async {}
 
   @override
   Widget build(BuildContext context) {

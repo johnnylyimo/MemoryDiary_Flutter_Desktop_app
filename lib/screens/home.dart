@@ -216,7 +216,7 @@ class _HomeState extends State<Home> {
                         borderRadius: BorderRadius.circular(30),
                       ),
                       child: Container(
-                        height: MediaQuery.of(context).size.height * 0.7,
+                        constraints: const BoxConstraints(maxHeight: 630.0),
                         width: screenWidth <= smallDesktopWidth
                             ? MediaQuery.of(context).size.width * 0.8
                             : MediaQuery.of(context).size.width * 0.4,

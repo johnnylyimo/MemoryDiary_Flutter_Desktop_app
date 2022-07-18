@@ -24,6 +24,8 @@ class _HomeState extends State<Home> {
         universalLinksOnly: false,
         headers: <String, String>{},
       );
+    } else {
+      throw 'Could not launch $url';
     }
   }
 

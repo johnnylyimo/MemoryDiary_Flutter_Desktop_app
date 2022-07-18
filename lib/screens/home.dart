@@ -19,6 +19,7 @@ class _HomeState extends State<Home> {
         url,
         useSafariVC: false,
         useWebView: false,
+        enableJavaScript: false,
       )
     }
   }

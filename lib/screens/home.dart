@@ -380,7 +380,9 @@ class _HomeState extends State<Home> {
                               onPressed: () => setState(() {
                                 _launched = _launchInBrowser(toLaunch);
                               }),
-                              icon: const Icon(),
+                              icon: const Icon(
+                                Icons.link,
+                              ),
                             ),
                             ElevatedButton(
                               child: const Text('Close'),

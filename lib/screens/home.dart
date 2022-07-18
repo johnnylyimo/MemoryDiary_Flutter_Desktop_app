@@ -384,7 +384,9 @@ class _HomeState extends State<Home> {
                                 Icons.link,
                                 color: Colors.black,
                               ),
-                              label: const Text(),
+                              label: const Text(
+                                'Click here to Visit my GitHub, see other open source projects ',
+                              ),
                             ),
                             ElevatedButton(
                               child: const Text('Close'),

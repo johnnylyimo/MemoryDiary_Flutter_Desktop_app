@@ -349,6 +349,7 @@ class _HomeState extends State<Home> {
                                         AssetImage('images/john.jpg'),
                                   ),
                                   const SizedBox(width: 2.0),
+                                  Flexible(),
                                 ],
                               ),
                             ),

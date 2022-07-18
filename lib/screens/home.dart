@@ -34,6 +34,7 @@ class _HomeState extends State<Home> {
     final screenWidth = MediaQuery.of(context).size.width;
     final screenHeight = MediaQuery.of(context).size.height;
     const String toLaunch = 'https://github.com/johnnylyimo';
+    const String toLaunch2 = 'https://molys-techie.vercel.app/';
 
     return Scaffold(
       appBar: AppBar(

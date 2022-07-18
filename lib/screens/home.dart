@@ -14,7 +14,9 @@ class _HomeState extends State<Home> {
 
   Future<void>? _launched;
   Future<void> _launchInBrowser(String url) async {
-    if (await UrlLauncherPlatform.instance.canLaunch(url)) {}
+    if (await UrlLauncherPlatform.instance.canLaunch(url)) {
+      await UrlLauncherPlatform.instance.launch()
+    }
   }
 
   @override

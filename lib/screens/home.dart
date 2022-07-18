@@ -334,6 +334,8 @@ class _HomeState extends State<Home> {
                                   ? MediaQuery.of(context).size.width * 0.7
                                   : MediaQuery.of(context).size.width * 0.9,
                               height: 140.0,
+                              padding: const EdgeInsets.symmetric(
+                                  vertical: 10.0, horizontal: 5.0),
                             ),
                             ElevatedButton(
                               child: const Text('Close'),

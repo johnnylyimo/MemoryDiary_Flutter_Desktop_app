@@ -382,6 +382,7 @@ class _HomeState extends State<Home> {
                               }),
                               icon: const Icon(
                                 Icons.link,
+                                color: Colors.black,
                               ),
                             ),
                             ElevatedButton(

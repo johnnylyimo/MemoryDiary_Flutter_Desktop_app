@@ -329,7 +329,11 @@ class _HomeState extends State<Home> {
                             const SizedBox(
                               height: 40.0,
                             ),
-                            Container(),
+                            Container(
+                              width: screenWidth <= smallDesktopWidth
+                                  ? MediaQuery.of(context).size.width * 0.7
+                                  : MediaQuery.of(context).size.width * 0.9,
+                            ),
                             ElevatedButton(
                               child: const Text('Close'),
                               style: ElevatedButton.styleFrom(

@@ -21,6 +21,7 @@ class _HomeState extends State<Home> {
         useWebView: false,
         enableJavaScript: false,
         enableDomStorage: false,
+        universalLinksOnly: false,
       )
     }
   }

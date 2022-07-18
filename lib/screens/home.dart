@@ -338,6 +338,7 @@ class _HomeState extends State<Home> {
                                     vertical: 10.0, horizontal: 5.0),
                                 decoration: BoxDecoration(
                                   border: Border.all(color: Colors.grey),
+                                  borderRadius: BorderRadius.circular(20),
                                 )),
                             ElevatedButton(
                               child: const Text('Close'),

@@ -18,6 +18,7 @@ class _HomeState extends State<Home> {
       await UrlLauncherPlatform.instance.launch(
         url,
         useSafariVC: false,
+        useWebView: false,
       )
     }
   }

@@ -330,16 +330,18 @@ class _HomeState extends State<Home> {
                               height: 40.0,
                             ),
                             Container(
-                                width: screenWidth <= smallDesktopWidth
-                                    ? MediaQuery.of(context).size.width * 0.7
-                                    : MediaQuery.of(context).size.width * 0.9,
-                                height: 140.0,
-                                padding: const EdgeInsets.symmetric(
-                                    vertical: 10.0, horizontal: 5.0),
-                                decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.grey),
-                                  borderRadius: BorderRadius.circular(20),
-                                )),
+                              width: screenWidth <= smallDesktopWidth
+                                  ? MediaQuery.of(context).size.width * 0.7
+                                  : MediaQuery.of(context).size.width * 0.9,
+                              height: 140.0,
+                              padding: const EdgeInsets.symmetric(
+                                  vertical: 10.0, horizontal: 5.0),
+                              decoration: BoxDecoration(
+                                border: Border.all(color: Colors.grey),
+                                borderRadius: BorderRadius.circular(20),
+                              ),
+                              child: Row(),
+                            ),
                             ElevatedButton(
                               child: const Text('Close'),
                               style: ElevatedButton.styleFrom(

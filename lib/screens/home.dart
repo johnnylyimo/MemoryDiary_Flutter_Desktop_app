@@ -352,6 +352,7 @@ class _HomeState extends State<Home> {
                                   Flexible(
                                     child: RichText(
                                       textAlign:TextAlign.start, ,
+                                        text: const TextSpan(),
                                     ),
                                   ),
                                 ],

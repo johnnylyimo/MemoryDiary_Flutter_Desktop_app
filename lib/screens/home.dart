@@ -22,7 +22,8 @@ class _HomeState extends State<Home> {
         enableJavaScript: false,
         enableDomStorage: false,
         universalLinksOnly: false,
-      )
+        headers: <String, String>{},
+      );
     }
   }
 

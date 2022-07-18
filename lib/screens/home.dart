@@ -348,7 +348,7 @@ class _HomeState extends State<Home> {
                                     backgroundImage:
                                         AssetImage('images/john.jpg'),
                                   ),
-                                  const SizedBox(),
+                                  const SizedBox(width: 2.0),
                                 ],
                               ),
                             ),

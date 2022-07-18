@@ -376,7 +376,11 @@ class _HomeState extends State<Home> {
                               ),
                             ),
                             const SizedBox(height: 5.0),
-                            TextButton.icon(),
+                            TextButton.icon(
+                              onPressed: () => setState(() {
+                                _launched = _launchInBrowser(toLaunch);
+                              }),
+                            ),
                             ElevatedButton(
                               child: const Text('Close'),
                               style: ElevatedButton.styleFrom(

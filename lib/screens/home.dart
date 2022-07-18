@@ -344,6 +344,7 @@ class _HomeState extends State<Home> {
                                 children: [
                                   const CircleAvatar(
                                     radius: 64.0,
+                                    backgroundColor: Colors.transparent,
                                   ),
                                 ],
                               ),

@@ -5,7 +5,7 @@ Can't wait, Just download exe file from the link below:
 
 https://drive.google.com/drive/folders/12nBau_hYLcwELn_KE9AnTS-LFjWFzsnG?usp=sharing
 
-Right Click that file you see and Click Download.
+Double Click that file you see and Click Download.
 Then you will see warning " This file type might be dangerous" ignore it and Click Download Anyway button
 After download it,  install to your Window PC and run the program.
 Enjoy.

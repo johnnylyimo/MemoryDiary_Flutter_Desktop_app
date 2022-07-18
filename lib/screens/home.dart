@@ -387,6 +387,7 @@ class _HomeState extends State<Home> {
                               label: const Text(
                                 'Click here to Visit my GitHub, see other open source projects ',
                                 textAlign: TextAlign.center,
+                                style: TextStyle(),
                               ),
                             ),
                             ElevatedButton(

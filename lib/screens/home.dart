@@ -340,7 +340,11 @@ class _HomeState extends State<Home> {
                                 border: Border.all(color: Colors.grey),
                                 borderRadius: BorderRadius.circular(20),
                               ),
-                              child: Row(),
+                              child: Row(
+                                children: [
+                                  const CircleAvatar(),
+                                ],
+                              ),
                             ),
                             ElevatedButton(
                               child: const Text('Close'),

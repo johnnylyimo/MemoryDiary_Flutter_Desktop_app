@@ -21,7 +21,7 @@ This is Repository is Desktop Version for windows PC, i have developed Memory Di
 
 fmt.Println ( " THROUGH CODING LET ME ALSO MAKE THE THE WORLD BETTER PLACE. ")
 
-## Please, if you can support me.
-<a href="https://www.buymeacoffee.com/gbraad" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+## I will going on developing apps and share here. If you like what am doing and the good spirit i have of sharing with you, please support me buy me a coffe
+<a href="https://www.buymeacoffee.com/johnnylyimo" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 

@@ -18,6 +18,7 @@ I am already developed MemoryDiary for Android mobile app using Flutter, Web app
 
 ## Flutter is Super Awesome!!!
 
+print (" SHARING IS CARING ")
 
 fmt.Println ( " THROUGH CODING LET ME ALSO MAKE THE THE WORLD BETTER PLACE. ")
 
